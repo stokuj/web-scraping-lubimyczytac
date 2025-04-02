@@ -1,115 +1,555 @@
-ID,Tytuł,Autor,Cykl,Średnia ocena,Liczba ocen,Czytelnicy,Opinie
-5095549,Pożar,Craig Alanson,Expeditionary Force (tom 11),"7,4",94,234,12
-4934877,Początek,Wasilij Machanienko,Droga Szamana (tom 1),"7,6",1983,3873,285
-4999909,Ostatnia bitwa,Dariusz Domagalski,HAJMDAL (tom 6),"7,1",127,220,17
-4951633,Relikt,Dariusz Domagalski,HAJMDAL (tom 5),"7,0",172,290,19
-4909479,Więzy krwi,Dariusz Domagalski,HAJMDAL (tom 4),"7,1",208,348,22
-4869967,Bunt,Dariusz Domagalski,HAJMDAL (tom 3),"6,7",242,393,26
-4863130,Księżyce Monarchy,Dariusz Domagalski,HAJMDAL (tom 2),"6,8",275,440,38
-4848454,Początek podróży,Dariusz Domagalski,HAJMDAL (tom 1),"6,6",359,727,62
-4945805,Niebiańska rzeka,Dennis E. Taylor,Bobiverse (tom 4),"7,1",442,899,67
-4945703,Wszystkie te światy,Dennis E. Taylor,Bobiverse (tom 3),"7,4",630,1187,65
-4929173,Gdyż jest nas wielu,Dennis E. Taylor,Bobiverse (tom 2),"7,5",754,1342,85
-4909870,Wojna makowa,Rebecca F. Kuang,Wojna makowa (tom 1),"7,5",8234,16734,1171
-4905356,"Nasze imię Legion, nasze imię Bob",Dennis E. Taylor,Bobiverse (tom 1),"7,3",1239,2864,199
-4957028,Beniamin Ashwood,A. C. Cobble,Beniamin Ashwood (tom 1),"6,5",602,1230,130
-4982657,Upadek Lewiatana,James S.A. Corey,Expanse / Ekspansja (tom 9),"7,7",708,1549,83
-4905284,Gniew Tiamat,James S.A. Corey,Expanse / Ekspansja (tom 8),"7,8",842,1827,75
-4899212,Wzlot Persepolis,James S.A. Corey,Expanse / Ekspansja (tom 7),"7,6",913,2019,75
-4890464,Prochy Babilonu,James S.A. Corey,Expanse / Ekspansja (tom 6),"7,2",1025,2024,85
-4875309,Gry Nemezis,James S.A. Corey,Expanse / Ekspansja (tom 5),"7,7",1158,2225,85
-4851040,Wrota Abaddona,James S.A. Corey,Expanse / Ekspansja (tom 3),"7,5",1493,2710,113
-4850144,Wojna Kalibana,James S.A. Corey,Expanse / Ekspansja (tom 2),"7,7",1759,3076,144
-4846911,Przebudzenie Lewiatana,James S.A. Corey,Expanse / Ekspansja (tom 1),"7,5",2994,6987,359
-4864850,Gorączka Ciboli,James S.A. Corey,Expanse / Ekspansja (tom 4),"7,5",1282,2416,93
-5070650,King's Fall,Evan Currie,Odyssey One (tom 8),"8,0",3,27,1
-4872617,Odyssey One. W cieniu zagłady,Evan Currie,Odyssey One (tom 7),"7,5",319,600,21
-4844115,Odyssey One. Przebudzenie Odyseusza,Evan Currie,Odyssey One (tom 6),"7,3",352,639,26
-4325122,Odyssey One. Król wojowników,Evan Currie,Odyssey One (tom 5),"7,5",397,744,28
-252862,Odyssey One. W ogniu wojny,Evan Currie,Odyssey One (tom 4),"7,4",476,865,33
-237760,Odyssey One. Ostatni bastion,Evan Currie,Odyssey One (tom 3),"7,6",525,917,36
-224628,Odyssey One. W samo sedno,Evan Currie,Odyssey One (tom 2),"7,2",575,990,39
-197385,Odyssey One. Rozgrywka w ciemno,Evan Currie,Odyssey One (tom 1),"7,2",748,1613,104
-5035706,Smoki i demony,Kel Kade,Kroniki mroku/King's Dark Tidings (tom 5),"7,6",367,885,53
-4972811,Królestwa i chaos,Kel Kade,Kroniki mroku/King's Dark Tidings (tom 4),"7,5",636,1124,60
-4972810,Legendy Ahn,Kel Kade,Kroniki mroku/King's Dark Tidings (tom 3),"7,4",750,1254,69
-4972809,Królestwo obłędu,Kel Kade,Kroniki mroku/King's Dark Tidings (tom 2),"7,7",885,1557,113
-4954385,Powiernik mieczy,Kel Kade,Kroniki mroku/King's Dark Tidings (tom 1),"7,2",1220,2755,214
-5073156,Bez prawa do błędu,Wasilij Machanienko,Świat Przeistoczonych (tom 1),"6,9",374,642,66
-5114841,Perła południa,Wasilij Machanienko,Świat Przeistoczonych (tom 2),"7,2",226,348,22
-5074231,Pośród wrogów,Evan Currie,Hayden War (tom 9),"7,4",108,222,15
-5061631,Pogranicze w ogniu,Evan Currie,Hayden War (tom 8),"7,1",125,274,15
-4815552,Nowe otwarcie,Evan Currie,Hayden War (tom 7),"7,1",219,419,17
-3788489,De Oppresso Liber,Evan Currie,Hayden War (tom 6),"7,3",260,468,18
-3788459,Za wszelką cenę,Evan Currie,Hayden War (tom 5),"7,2",265,480,17
-309409,Zew Walhalli,Evan Currie,Hayden War (tom 4),"7,4",278,495,16
-309408,Walkiria w ogniu,Evan Currie,Hayden War (tom 3),"7,3",302,519,14
-300558,Narodziny Walkirii,Evan Currie,Hayden War (tom 2),"7,2",322,567,18
-292780,Na srebrnych skrzydłach,Evan Currie,Hayden War (tom 1),"7,0",420,863,43
-5087702,Masa Krytyczna,Craig Alanson,Expeditionary Force (tom 10),"7,7",115,275,12
-5034562,Walkiria,Craig Alanson,Expeditionary Force (tom 9),"7,6",139,294,17
-5019806,Armagedon,Craig Alanson,Expeditionary Force (tom 8),"7,3",147,293,10
-5014044,Renegaci,Craig Alanson,Expeditionary Force (tom 7),"7,3",168,318,12
-4993409,Mavericks,Craig Alanson,Expeditionary Force (tom 6),"7,1",178,364,10
-4977674,Godzina zero,Craig Alanson,Expeditionary Force (tom 5),"7,3",208,369,9
-4972110,Black Ops,Craig Alanson,Expeditionary Force (tom 4),"7,2",238,412,13
-4978271,Kłopoty na Paradise,Craig Alanson,Expeditionary Force (tom 3.5),"6,9",154,296,11
-4959327,Paradise,Craig Alanson,Expeditionary Force (tom 3),"7,2",291,478,23
-4939443,SpecOps,Craig Alanson,Expeditionary Force (tom 2),"7,1",330,523,29
-4924157,Dzień Kolumba,Craig Alanson,Expeditionary Force (tom 1),"7,3",443,965,68
-5095506,Świat zieleni,B.V. Larson,Legion nieśmiertelnych (tom 15),"7,1",114,309,4
-5087700,Świat Skraju,B.V. Larson,Legion nieśmiertelnych (tom 14),"7,1",118,325,6
-5076376,Świat Szkła,B.V. Larson,Legion nieśmiertelnych (tom 13),"7,1",136,338,6
-5074232,Świat Klonów,B.V. Larson,Legion nieśmiertelnych (tom 12),"7,0",151,345,8
-5113703,Tatuażysta z Auschwitz,Heather Morris,Tatuażysta z Auschwitz (tom 1),"7,2",18472,30888,2388
-5099156,Los pokonanych,Kel Kade,Tajne proroctwo (tom 1),"7,1",285,828,72
-130409,Front burzowy,Jim Butcher,Akta Harry'ego Dresdena (tom 1),"6,6",2148,4407,265
-5026569,Ciemny las,Cixin Liu,Wspomnienie o przeszłości Ziemi (tom 2),"8,0",4489,7786,490
-4233532,Problem trzech ciał,Cixin Liu,Wspomnienie o przeszłości Ziemi (tom 1),"7,5",7891,16901,1024
-5100417,Księstwo Różanego Krzyża,Marcin Świątkowski,Psy Pana (tom 2),"7,0",379,656,75
-5077100,Psy Pana,Marcin Świątkowski,Psy Pana (tom 1),"6,6",755,1453,193
-51717,Star Wars: Darth Bane. Dynastia Zła,Drew Karpyshyn,The Essential Legends Collection (tom 0),"7,8",1418,2170,101
-51716,Star Wars: Darth Bane. Zasada Dwóch,Drew Karpyshyn,The Essential Legends Collection (tom 0),"7,6",1540,2296,97
-136434,Star Wars: Darth Bane. Droga zagłady,Drew Karpyshyn,Trylogia Dartha Bane'a (tom 1),"7,9",876,1405,77
-5034334,Ogień i krew. Część 2,George R.R. Martin,Historia Targaryenów (tom 1.2),"7,1",2186,4319,181
-5034333,Ogień i krew. Część 1,George R.R. Martin,Historia Targaryenów (tom 1.1),"7,3",3085,6320,326
-4966319,Świat Śmierci,B.V. Larson,Legion nieśmiertelnych (tom 5),"6,8",274,495,15
-5053076,Świat Burz,B.V. Larson,Legion nieśmiertelnych (tom 10),"7,1",183,405,10
-5064307,Świat Pancerza,B.V. Larson,Legion nieśmiertelnych (tom 11),"7,1",166,358,14
-5029467,Świat Ciemności,B.V. Larson,Legion nieśmiertelnych (tom 9),"7,0",193,380,13
-5014046,Świat Krwi,B.V. Larson,Legion nieśmiertelnych (tom 8),"6,9",212,413,15
-4999910,Świat Buntowników,B.V. Larson,Legion nieśmiertelnych (tom 7),"7,0",234,460,15
-4985304,Świat ludzi,B.V. Larson,Legion nieśmiertelnych (tom 6),"7,1",251,481,14
-4962259,Świat Maszyn,B.V. Larson,Legion nieśmiertelnych (tom 4),"6,8",292,511,13
-4941337,Świat Postępu,B.V. Larson,Legion nieśmiertelnych (tom 3),"6,7",319,563,20
-4941336,Świat Pyłu,B.V. Larson,Legion nieśmiertelnych (tom 2),"6,8",358,614,33
-4997165,Świat stali,B.V. Larson,Legion nieśmiertelnych (tom 1),"6,8",536,1042,77
-5060263,Dar anomalii. Księga 1,Paweł Zbroszczyk,Dar anomalii (tom 1),"7,4",747,1375,286
-5012783,Posłaniec,Krzysztof Barrek,Upadek cesarstwa (tom 1),"7,2",193,347,44
-4918579,Pierwotny,Małgorzata Lisińska,Tropiciel (tom 3),"6,9",174,308,24
-4863627,Czarownica,Małgorzata Lisińska,Tropiciel (tom 2),"7,1",270,438,41
-4813063,Tropiciel,Małgorzata Lisińska,Tropiciel (tom 1),"6,7",433,734,75
-5033814,Star Wars: Mistrz i uczeń,Claudia Gray,,"7,3",261,442,40
-5040519,Kapitularz Diuną,Frank Herbert,Kroniki Diuny (tom 6),"7,1",1948,5005,116
-5040518,Heretycy Diuny,Frank Herbert,Kroniki Diuny (tom 5),"7,3",2599,6064,140
-5114517,Bóg Imperator Diuny,Frank Herbert,Kroniki Diuny (tom 4),"7,3",4266,8706,271
-5040514,Dzieci Diuny,Frank Herbert,Kroniki Diuny (tom 3),"7,4",1474,2739,94
-8601,Mesjasz Diuny,Frank Herbert,Kroniki Diuny (tom 2),"7,3",5944,9849,381
-4942534,Diuna,Frank Herbert,Kroniki Diuny (tom 1),"8,2",21153,43225,1842
-199630,Sezon burz,Andrzej Sapkowski,Wiedźmin Geralt z Rivii (tom 0.2),"7,4",22522,38792,1829
-240527,Pani Jeziora,Andrzej Sapkowski,Wiedźmin Geralt z Rivii (tom 7),"8,2",32447,52687,1135
-240525,Wieża Jaskółki,Andrzej Sapkowski,Wiedźmin Geralt z Rivii (tom 6),"8,3",33190,53060,910
-240524,Chrzest ognia,Andrzej Sapkowski,Wiedźmin Geralt z Rivii (tom 5),"8,4",37530,58183,1091
-240513,Czas pogardy,Andrzej Sapkowski,Wiedźmin Geralt z Rivii (tom 4),"8,3",40156,61470,1139
-240512,Krew elfów,Andrzej Sapkowski,Wiedźmin Geralt z Rivii (tom 3),"8,2",44979,68620,1594
-240312,Miecz przeznaczenia,Andrzej Sapkowski,Wiedźmin Geralt z Rivii (tom 2),"8,4",41774,62649,1494
-240310,Ostatnie życzenie,Andrzej Sapkowski,Wiedźmin Geralt z Rivii (tom 1),"8,4",52969,80111,2667
-301206,Taniec ze smokami. Część 2,George R.R. Martin,Pieśń Lodu i Ognia (tom 5.2),"8,2",16000,29303,565
-301205,Taniec ze smokami. Część 1,George R.R. Martin,Pieśń Lodu i Ognia (tom 5.1),"8,0",17127,31376,491
-253110,Uczta dla wron: Sieć spisków,George R.R. Martin,Pieśń Lodu i Ognia (tom 4.2),"8,0",8535,16089,200
-252979,Uczta dla wron: Cienie śmierci,George R.R. Martin,Pieśń Lodu i Ognia (tom 4.1),"8,0",8949,16534,239
-4942700,Nawałnica mieczy: Krew i złoto,George R.R. Martin,Pieśń Lodu i Ognia (tom 3.2),"8,5",1815,3611,51
-4942363,Nawałnica mieczy: Stal i śnieg,George R.R. Martin,Pieśń Lodu i Ognia (tom 3.1),"8,4",2225,4211,59
-135651,Star Wars: Darth Plagueis,James Luceno,,"7,8",656,1130,85
-134106,Starcie królów,George R.R. Martin,Pieśń Lodu i Ognia (tom 2),"8,4",16453,27335,591
-134254,Gra o tron,George R.R. Martin,Pieśń Lodu i Ognia (tom 1),"8,5",19101,32416,1332
+ID,Tytuł,Autor,Cykl,Średnia ocena,Liczba ocen,Czytelnicy,Opinie,Ocena użytkownika
+5133793,Ucieczka Apsary. Część 2,"Katarzyna Podstawek, Katarzyna Rutowska",,"9,5",6,43,0,10
+5123559,Pen Pal,J.T. Geissinger,,"7,2",588,1019,160,7
+4877199,Herezja miłości 3,Moriyama Ena,Herezja miłości (tom 3),"7,1",82,128,15,10
+4870167,Herezja miłości 2,Moriyama Ena,Herezja miłości (tom 2),"7,1",85,131,12,9
+5127492,Ucieczka Apsary. Część 1,"Katarzyna Podstawek, Katarzyna Rutowska",,"7,0",219,418,67,9
+5134719,Zaraza,Laura Thalassa,Jeźdźcy apokalipsy (tom 1),"6,7",926,1988,220,10
+5134713,Wojna,Laura Thalassa,Jeźdźcy apokalipsy (tom 2),"6,6",312,675,92,8
+5069804,Ta druga Bella,Whitney G.,,"5,7",450,760,139,6
+5085516,The Office Party. Firmowa gwiazdka,Whitney G.,,"5,4",526,701,75,5
+5131214,Moje szczęśliwe małżeństwo #2,"Akumi Agitogi, Rito Kousaka",Moje szczęśliwe małżeństwo (tom 2),"8,2",49,77,7,10
+5113896,Moje szczęśliwe małżeństwo #1,"Akumi Agitogi, Rito Kousaka",Moje szczęśliwe małżeństwo (tom 1),"8,3",82,132,15,10
+5033782,Narzeczony na miesiąc,Whitney G.,,"6,5",1469,2111,219,7
+5102091,Skrzynka życzeń,Paulina Jurga,,"7,2",551,819,126,9
+4890769,Zaraza,Laura Thalassa,Jeźdźcy apokalipsy (tom 1),"6,8",642,1336,127,10
+4863464,Herezja miłości 1,Moriyama Ena,Herezja miłości (tom 1),"6,8",104,174,15,8
+5099794,Cierń,T. Kingfisher,,"6,8",1514,2421,303,9
+5135606,Dunder albo kot z zaświatu,"Radek Rak, Tomasz Bolik",,"7,7",119,429,65,9
+5101508,Krucjata,Agata Konefał,Saga Niebios i Otchłani (tom 1),"8,6",78,256,50,9
+5133756,Mroczny taniec,Adelina Tulińska,,"6,1",121,210,41,9
+5133367,10 Grzechów Głównych,Mags Green,,"7,1",418,804,127,10
+5168568,Dyniowy Król. Miasteczko Halloween,"Shaun McLaughlin, D.J Milky",,"6,4",10,18,0,7
+5126665,Szklany tron,Sarah J. Maas,Szklany Tron (tom 1),"7,8",14315,28861,1532,2
+5119916,Blask Wiecznego Płomienia,Penn Cole,Klątwa Przodków (tom 2),"7,4",348,648,64,10
+5052195,Do zakochania jeden urok,Ludka Skrzydlewska,Czarownice z Inverness (tom 1),"6,9",715,1323,146,8
+5132455,The Cookie Affair,Adelina Tulińska,,"6,3",114,193,16,9
+5112722,Obietnica Perydotu,Kate Golden,Święte Kamienie (tom 2),"7,2",232,537,38,10
+5130385,Niewolnica elfów,Justyna Komuda,Córa Lasu (tom 3),"8,3",135,248,66,10
+5127626,Smocze kryształy. Przepowiednia bogów,Joanna Karyś,Smocze kryształy (tom 3),"7,6",114,250,41,10
+5105258,Król wiedźm,Miriam Bonastre Tur,Hooky (tom 1),"8,2",77,177,26,8
+5022690,Dziedzictwo,Elle Kennedy,Off-Campus (tom 5),"7,1",581,1361,83,8
+4949957,Matnia,Paulina Jurga,Rosyjska Mafia (tom 3),"8,2",623,1009,154,8
+5106869,Przybądź wraz z północą,Rachel Griffin,,"7,4",81,189,52,9
+5125695,Trzecia faza księżyca,Agata Polte,Rodzina Carmody (tom 2),"7,6",510,889,100,9
+5105998,"Nie tym razem, panie Reid",Adelina Tulińska,,"6,6",209,342,36,8
+5122235,Co wie rzeka,Isabel Ibañez,Sekrety Nilu (tom 1),"7,6",150,502,62,5
+5129575,Luienna. Otchłań tajemnic,Claudia Pendel,Saga Sztormów i Legend (tom 2),"8,7",21,53,18,10
+5094596,Gwiezdne Łowy,Mags Green,Post mortem (tom 2),"8,1",327,712,80,10
+5108336,"Pani dentystko, nie tak blisko! #1",Shou Yamazaki,"Pani dentystko, nie tak blisko! (tom 1)","7,1",23,49,4,6
+5113902,Znaki naszych uczuć #5,Suu Morishita,Znaki naszych uczuć (tom 5),"7,6",26,45,1,8
+5109495,How Does It Feel?,Jeneane O'Riley,Światło i mrok (tom 1),"5,4",228,592,120,3
+5110531,Słomianie,Adrian Markowski,,"5,6",98,216,56,3
+5112755,Witch Watch #1,Kenta Shinohara,Witch Watch (tom 1),"5,7",23,47,3,8
+5094987,Dwie splecione korony,Rachel Gillig,Tajemnice Króla Shepherda (tom 2),"7,7",1205,2010,179,10
+5126086,Bed and Breakfast,Adelina Tulińska,,"5,8",22,35,3,8
+5113246,Hades. Król Podziemia,Monika Magoska-Suchar,Hades (Monika Mogoska-Suchar) (tom 1),"6,5",179,371,53,7
+5118747,Iskra Wiecznego Płomienia,Penn Cole,Klątwa Przodków (tom 1),"7,2",529,1389,99,9
+5113002,Sieć: Czas decyzji. Tom 3,Agata Lasocka-Myszor,Sieć (tom 3),"8,9",60,94,41,10
+5121082,Syn mroku,Adelina Tulińska,,"6,4",129,259,26,10
+67113,Death Note #4: Miłość,"Tsugumi Ohba, Takeshi Obata",Death Note (tom 4),"8,1",991,1742,16,10
+5109876,Śpiew morzycy,Jagna Rolska,Pajęczyna czasu (tom 2),"7,6",117,178,68,8
+5107663,Potworna słodycz #6,Spica Aoki,Potworna słodycz (tom 6),"7,9",21,39,4,9
+5034051,Kapłanka chaosu,Justyna Komuda,Córa Lasu (tom 2),"8,1",248,415,102,10
+5110027,Klątwa Pierwszych,E. Nowak,Trylogia Rasy Przeklętych (tom 1),"7,7",54,149,38,10
+40761,Death Note #3: Wyścig,"Tsugumi Ohba, Takeshi Obata",Death Note (tom 3),"8,2",1104,1897,24,10
+4988933,Dwór srebrnych płomieni. Część 2,Sarah J. Maas,Dwór cierni i róż (tom 4.2),"7,5",2508,4510,232,7
+4965132,Dwór srebrnych płomieni. Część 1,Sarah J. Maas,Dwór cierni i róż (tom 4.1),"7,2",2836,5588,302,8
+5105222,Znaki naszych uczuć #4,Suu Morishita,Znaki naszych uczuć (tom 4),"7,8",32,51,2,7
+5088426,Znaki naszych uczuć #3,Suu Morishita,Znaki naszych uczuć (tom 3),"7,8",38,63,2,7
+5104340,Noc upadku,Magdalena Szponar,Bestiariusz Ciemności (tom 1),"5,7",237,644,98,5
+5105691,Pierwsza faza zaćmienia,Agata Polte,Rodzina Carmody (tom 1),"7,4",847,1752,154,9
+4861149,Dwór szronu i blasku gwiazd,Sarah J. Maas,Dwór cierni i róż (tom 3.5),"6,7",4665,7949,459,8
+5081500,Miłość,Paulina Jurga,Czarne Żagle (tom 3),"8,7",150,284,75,10
+5088336,Heartstopper. Tom 5,Alice Oseman,Heartstopper (tom 5),"7,8",874,1264,93,10
+5093769,Obsydian,Guillaume Gigleux,,"7,2",11,21,7,5
+5092751,Wypieki defensywne. Przewodnik dla czarodziejów i czarodziejek,T. Kingfisher,,"7,1",1346,2112,224,9
+5104435,Escape room. Pościg za Agentem 9,Alex Wolf,,"7,7",7,14,5,10
+5104434,Escape room. Największa sprawa Sherlocka,Alex Wolf,,"8,3",13,25,9,10
+5085780,Smocze kryształy. Krwawe przeznaczenie,Joanna Karyś,Smocze kryształy (tom 2),"7,6",176,435,56,10
+5094172,Przecinaczka,Kika Hatzopoulou,Threads That Bind (tom 1),"6,6",265,845,86,8
+299220,Dręczyciel,Penelope Douglas,Fall Away (tom 1),"7,6",2550,5250,245,8
+5093771,Sherlock Holmes: Cienie nad Londynem,Jarvin,,"7,8",13,38,7,8
+5080276,Potworna słodycz #5,Spica Aoki,Potworna słodycz (tom 5),"7,6",27,53,3,8
+5084148,Znaki naszych uczuć #2,Suu Morishita,Znaki naszych uczuć (tom 2),"7,7",44,74,5,8
+4949365,Matrioszka,Paulina Jurga,Rosyjska Mafia (tom 1),"7,9",1048,1681,296,9
+5087191,Król trujących kwiatów,Hannah F. Whitten,The Nightshade Crown (tom 1),"6,7",169,800,58,5
+5090259,Naila z Latającej Doliny,Maja Haber,,"7,7",105,300,35,10
+5085045,Grzesznicy lazurowej otchłani tom 1,Akihito Tomi,Grzesznicy lazurowej otchłani (tom 1),"6,8",31,51,6,9
+5070740,NANA #1,Ai Yazawa,NANA―ナナ (tom 1),"8,3",346,612,26,10
+38498,Połowa nocy,Izabela Szolc,,"5,5",66,134,5,5
+4980282,Hegemon Apopi,Justyna Komuda,Córa Lasu (tom 1),"7,5",424,897,189,10
+5082176,Futuris. Przebudzeni,Adelina Tulińska,,"6,7",56,98,40,10
+5091181,Miasteczko Halloween.,Jun Asuka,,"6,6",41,61,9,9
+5084892,Świt Onyksu,Kate Golden,Święte Kamienie (tom 1),"7,0",601,1513,125,9
+5059348,Belladonna,Adalyn Grace,Belladonna (tom 1),"7,2",1493,3334,310,8
+4823888,Łzy bogini Nuwy,"Manuro, Ben Jurdic",,"6,7",69,125,16,8
+5032904,Winter Flower,Julia Brylewska,,"8,1",1049,2004,244,10
+5078422,Piękny i martwy,Anna Langner,,"6,5",265,442,87,8
+4945542,Sherlock Holmes: Dookoła Świata,"Cédric Asna, Boutanox",,"8,0",41,98,16,8
+4965006,Letnie przesilenie,Anna Langner,,"6,6",375,675,113,3
+5079337,Okno skąpane w mroku,Rachel Gillig,Tajemnice Króla Shepherda (tom 1),"7,6",1863,3914,303,9
+4921439,Sprośne listy,"Vi Keeland, Penelope Ward",,"7,4",1061,1973,217,10
+5057222,Pray for us,Aleksandra Maras,Pray (tom 1),"7,3",122,290,43,5
+5049934,Sieć: Czas Agentów. Tom 2,Agata Lasocka-Myszor,Sieć (tom 2),"8,2",115,162,67,9
+5063899,Geek Friend,Julia Gaj,Geek (tom 1),"6,6",169,301,53,7
+5064885,Niech śmierć nas rozdzieli #1,Asuka Konishi,Niech śmierć nas rozdzieli (tom 1),"7,1",77,119,12,5
+5067257,Dandadan #1,Yukinobu Tatsu,Dandadan (tom 1),"7,2",85,135,10,4
+5033315,Słowodzicielka,Anna Szumacher,Słowotwórczyni (tom 1),"6,8",518,1208,156,8
+5059030,Odcienie czerni,Magdalena Szponar,Odcienie (tom 2),"8,1",222,426,76,9
+5063750,Dark,Adelina Tulińska,,"7,5",467,781,97,10
+5051975,Nimona,ND Stevenson,,"7,7",398,776,75,8
+5072543,Żądza,Paulina Jurga,Czarne Żagle (tom 2),"8,4",187,338,85,10
+5066238,Znaki naszych uczuć #1,Suu Morishita,Znaki naszych uczuć (tom 1),"7,6",65,104,13,8
+5063448,Kłamstwo,Paulina Jurga,Czarne Żagle (tom 1),"7,8",302,607,142,10
+5072183,Potworna słodycz #4,Spica Aoki,Potworna słodycz (tom 4),"8,0",28,58,6,8
+5016790,Sieć: Czas Adeptów. Tom 1,Agata Lasocka-Myszor,Sieć (tom 1),"8,1",190,298,109,9
+5066421,Wicked Beauty,Katee Robert,Dark Olympus (tom 3),"6,3",188,487,56,9
+5067170,Klątwa cierni,Maja Haber,,"7,1",262,542,80,7
+5067220,Haunting Adeline,H.D. Carlton,Cat and Mouse Duet (tom 1),"6,5",2067,3833,413,5
+5054701,Klątwa kani,Jagna Rolska,Pajęczyna czasu (tom 1),"7,1",187,369,77,10
+5056863,Her Soul For Revenge,Harley Laroux,Przeklęte dusze (tom 2),"7,1",365,809,60,9
+5056653,To zawsze byłeś ty,Adelina Tulińska,,"6,7",337,567,103,9
+5064768,Słoneczny Gon,Mags Green,Post mortem (tom 1),"7,1",707,1890,166,10
+5064702,Potworna słodycz #3,Spica Aoki,Potworna słodycz (tom 3),"8,1",36,70,8,9
+4992303,Kanibal. Krzyk rozdartego serca,Paulina Zalecka,Powstali z popiołów (tom 1),"6,8",281,465,93,8
+5046015,Fire Night,Penelope Douglas,Devil's Night (tom 4.5),"7,6",524,1199,67,7
+4999100,The Crush. Zanim nas przyłapią,Penelope Ward,,"6,8",268,522,73,8
+5045078,Her Soul to Take,Harley Laroux,Przeklęte dusze (tom 1),"6,2",911,1742,199,9
+4803632,Dwór skrzydeł i zguby,Sarah J. Maas,Dwór cierni i róż (tom 3),"8,3",7611,12176,659,10
+4039467,Dwór mgieł i furii,Sarah J. Maas,Dwór cierni i róż (tom 2),"8,6",9362,14737,989,10
+5053150,Electric Idol,Katee Robert,Dark Olympus (tom 2),"6,8",332,684,71,9
+5059227,Heartless,Masumi Nishin,,"6,7",73,136,19,5
+295801,Dwór cierni i róż,Sarah J. Maas,Dwór cierni i róż (tom 1),"7,7",12012,21406,1464,10
+5059728,Potworna słodycz #2,Spica Aoki,Potworna słodycz (tom 2),"7,7",42,76,9,8
+5048987,Odcienie czerwieni,Magdalena Szponar,Odcienie (tom 1),"7,7",401,780,101,9
+5045994,Conclave,Penelope Douglas,Devil's Night (tom 3.5),"7,3",697,1535,77,8
+239031,Orange #1,Takano Ichigo,Orange (tom 1),"8,0",345,621,35,10
+188759,Służąca Przewodnicząca #1,Hiro Fujiwara,Służąca Przewodnicząca (tom 1),"7,8",244,455,24,6
+5043638,Miłość. Seria Twisted,Ana Huang,Twisted (tom 1),"6,6",2127,3602,324,8
+5057229,Bestie zagłady,Ayana Gray,Beasts of Prey (tom 2),"7,4",73,167,49,10
+5051352,Królestwo Węży i Krwi,Adelina Tulińska,,"6,5",290,552,83,10
+5053095,Smocze kryształy. Sekrety władców,Joanna Karyś,Smocze kryształy (tom 1),"7,3",295,915,99,10
+4975314,Nightfall,Penelope Douglas,Devil's Night (tom 4),"7,9",888,2047,117,10
+5052364,Gniew Nowych Bogów,Katarzyna Wycisk,Kroniki Krwi i Mroku (tom 2),"8,1",174,360,50,10
+5022313,FREAK. Naucz mnie oddychać,Katarzyna Wycisk,Niepokonani. Katarzyna Wycisk (tom 2),"8,1",293,466,101,9
+5046508,Sherlock Holmes: Mistyczne śledztwa,"Boutanox, Jarvin",,"7,5",28,60,15,9
+5038352,Potworna słodycz #1,Spica Aoki,Potworna słodycz (tom 1),"7,7",61,107,14,8
+5031125,Gothikana,RuNyx,,"6,4",951,1547,259,9
+5004487,Credence,Penelope Douglas,,"6,1",2219,3744,411,9
+5042644,Lore Olympus. Tom 1,Rachel Smythe,Lore Olympus (tom 1),"7,7",353,647,80,8
+5039500,Barwa twoich ust,Keiko Iwashita,,"7,5",45,78,8,9
+4975313,Kill Switch,Penelope Douglas,Devil's Night (tom 3),"8,1",1231,2585,166,10
+4917591,Napraw mnie,Anna Langner,Zniszcz mnie (tom 2),"7,3",648,1217,118,9
+5041319,Luienna. Bal w Trewill,Claudia Pendel,Saga Sztormów i Legend (tom 1),"7,7",79,251,51,10
+5026389,Spooky love,Anna Langner,,"6,3",528,801,140,10
+5034874,Neon Gods,Katee Robert,Dark Olympus (tom 1),"5,9",972,1797,222,10
+5033942,Velvet Kiss #1,Chihiro Harumi,Velvet Kiss (tom 1),"6,0",40,58,3,7
+4998983,Aktor. Gra zmysłów,Ewelina Dobosz,Faceci do wynajęcia (tom 4),"6,3",330,564,64,8
+5024127,Weterynarz. Dzikie serce,Ludka Skrzydlewska,Faceci do wynajęcia (tom 8),"6,9",387,619,77,8
+5002864,Krzyk Południa,Adelina Tulińska,Dotyk Północy (tom 3),"6,7",128,266,17,9
+5019337,Szept lasu,Marlena Joanna Sychowska,Baśnie z Siedmiu Królestw (tom 1),"7,6",240,637,104,10
+4993930,Epi. Nie pozwól mi upaść,Katarzyna Wycisk,Niepokonani. Katarzyna Wycisk (tom 1),"8,2",439,723,172,10
+5023500,Nie możesz mnie pocałować,Carian Cole,,"7,5",1184,1862,232,10
+67112,Death Note #2: Połączenie,"Tsugumi Ohba, Takeshi Obata",Death Note (tom 2),"8,2",1241,2087,34,10
+4939375,I see you,"Ker Dukey, D.H. Sidebottom",,"7,8",901,1586,265,9
+67111,Death Note #1: Nuda,"Tsugumi Ohba, Takeshi Obata",Death Note (tom 1),"8,2",1635,2973,112,10
+4975953,Krew Nowych Bogów,Katarzyna Wycisk,Kroniki Krwi i Mroku (tom 1),"7,5",388,970,163,10
+4856897,W miasteczku piasku i błękitnych łusek #2,Yoko Komori,W miasteczku piasku i błękitnych łusek (tom 2),"7,5",40,61,7,8
+5016153,Heartstopper. Tom 4,Alice Oseman,Heartstopper (tom 4),"8,1",2344,3281,224,10
+85361,Baśniobór,Brandon Mull,Baśniobór (tom 1),"7,8",6669,11849,1004,9
+4850274,W miasteczku piasku i błękitnych łusek #1,Yoko Komori,W miasteczku piasku i błękitnych łusek (tom 1),"7,4",44,73,9,8
+5018335,Nieznośny sąsiad,Adelina Tulińska,Niegrzeczna Kolekcja (tom 6),"6,4",331,511,39,9
+5015041,Tu i teraz,Camille Gale,,"7,3",163,332,84,9
+4877186,Gentleman numer dziewięć,Penelope Ward,,"7,1",995,1794,121,8
+4953120,Na ścieżce kłamstw,Katarzyna Wycisk,Falcon (tom 1),"7,2",393,900,152,9
+5018926,Drapieżne bestie,Ayana Gray,Beasts of Prey (tom 1),"6,8",154,451,106,10
+4993717,Heartstopper. Tom 2,Alice Oseman,Heartstopper (tom 2),"7,9",3061,4046,278,10
+4999050,Heartstopper. Tom 3,Alice Oseman,Heartstopper (tom 3),"8,0",2668,3595,227,10
+4858556,Najdroższy sąsiad,Penelope Ward,,"7,4",1182,2236,143,8
+5002861,Oddech Wschodu,Adelina Tulińska,Dotyk Północy (tom 2),"7,6",221,493,46,9
+4892645,Cry baby,Ginger Scott,,"6,4",277,706,47,8
+4892595,Pieśń syreny,Alexandra Christo,,"6,7",1797,4054,276,10
+4980838,Heartstopper. Tom 1,Alice Oseman,Heartstopper (tom 1),"7,6",4217,5901,628,10
+4888561,Miłość online,Penelope Ward,,"7,0",930,1687,126,10
+5002857,Dotyk Północy,Adelina Tulińska,Dotyk Północy (tom 1),"6,9",396,968,94,8
+4256965,Przyrodni brat,Penelope Ward,,"7,5",2707,4982,297,9
+4911231,Złączeni nienawiścią,Cora Reilly,Born in Blood Mafia Chronicles (tom 3),"7,6",3438,5348,314,10
+4898967,Złączeni obowiązkiem,Cora Reilly,Born in Blood Mafia Chronicles (tom 2),"7,6",3492,5305,303,9
+4878247,Złączeni honorem,Cora Reilly,Born in Blood Mafia Chronicles (tom 1),"7,6",4778,7805,498,10
+4959624,Zostań dla mnie,Corinne Michaels,Arrowood Brothers (tom 4),"7,6",799,1354,200,9
+4967724,Czarodziejki W.I.T.C.H. Księga 2,"Francesco Artibani, Bruno Enna",Czarodziejki W.I.T.C.H. (tom 2),"8,2",392,592,40,10
+4967783,Czarodziejki W.I.T.C.H. Księga 3,"Francesco Artibani, Bruno Enna",Czarodziejki W.I.T.C.H. (tom 3),"8,1",292,483,23,10
+4971878,Pocałunek gwiazdy,A.L. Jackson,Falling Stars (tom 1),"6,7",417,659,171,8
+4858578,Cień i kość,Leigh Bardugo,Grisza (tom 1),"7,1",8410,15864,910,10
+4977796,365 dni Grażynki,Michał Biarda,,"5,5",211,332,95,8
+4971043,Wojownicze serca,Joanna Karyś,,"7,1",45,161,27,10
+4976937,Ogrodnik. Raj odnaleziony,Katarzyna Bester,Faceci do wynajęcia (tom 2),"7,1",481,808,75,8
+4981083,Szybki i łatwy,Katarzyna Bester,,"7,2",409,622,73,9
+4959137,Mam coś twojego,Katarzyna Bester,,"7,3",678,1043,176,9
+4987335,Dom (nie)spokojnej starości,"Anna Kasiuk, Alek Rogoziński",,"6,7",725,1138,142,8
+4994584,Krew i popiół,Jennifer L. Armentrout,Krew i popiół (tom 1),"7,6",4738,10588,810,10
+4975541,Trener. Szczyt formy,Anna Langner,Faceci do wynajęcia (tom 1),"6,7",598,1004,93,8
+4980249,Kucharz. Na ostro,Adelina Tulińska,Faceci do wynajęcia (tom 3),"6,5",454,766,58,9
+4969104,Nie dla mnie,Vi Keeland,,"7,5",1094,1757,161,9
+4980958,Dziedzictwo Smoków. Łowczyni,Emilia Ziółkowska,Dziedzictwo Smoków (tom 1),"7,1",59,167,30,8
+4972361,W ciemnościach,Adelina Tulińska,W ciemnościach (tom 1),"7,2",757,1154,126,9
+4959622,On jest dla mnie,Corinne Michaels,Arrowood Brothers (tom 3),"7,5",933,1513,207,7
+4929430,Bezwstydny klient,Whitney G.,Intensywne doznania (tom 3),"6,6",1551,2401,194,6
+308077,Piękny sekret,Christina Lauren,Beautiful Bastard (tom 4),"6,9",1461,3055,102,5
+4972489,Czarodziejki W.I.T.C.H. Księga 1,"Francesco Artibani, Bruno Enna",Czarodziejki W.I.T.C.H. (tom 1),"8,3",558,842,80,10
+4959621,Zawalcz o mnie,Corinne Michaels,Arrowood Brothers (tom 2),"7,4",1146,1790,244,8
+220574,Rozbłyski posenne,Katarzyna Chabowska,,"6,3",4,4,1,5
+4956507,Wróć do mnie,Corinne Michaels,Arrowood Brothers (tom 1),"7,4",1507,2493,298,9
+4919689,Grzeszny Doktor,Whitney G.,Intensywne doznania (tom 2),"6,4",1899,2874,219,6
+271319,Piękny gracz,Christina Lauren,Beautiful Bastard (tom 3),"7,4",2070,3878,137,7
+4907709,Dama Paxtona,Agnieszka Siepielska,Sinners & Reapers (tom 1),"7,3",1399,2130,230,6
+4879585,Kółko się pani urwało,Jacek Galiński,Zofia Wilkońska (tom 1),"6,4",4225,6559,955,6
+257100,Piękny nieznajomy,Christina Lauren,Beautiful Bastard (tom 2),"7,3",2674,5050,198,8
+4933939,Piekielny układ,A.S. Sivar,,"7,2",1248,1991,241,9
+4887039,Walcząc z cieniami,Aly Martinez,On the Ropes (tom 2),"7,6",400,855,59,8
+245759,Piękny drań,Christina Lauren,Beautiful Bastard (tom 1),"7,1",5028,9048,536,7
+4910763,Niegrzeczny szef,Whitney G.,Intensywne doznania (tom 1),"6,4",2714,4092,400,7
+4890191,Królestwo,Jess Rothenberg,,"6,5",137,462,29,9
+75747,Legendarni i tragiczni. Eseje o polskich poetach przeklętych. Tom 1,"Jan Marx, Edward Stachura",,"6,9",111,327,11,10
+249566,Dziewczyna idzie na wesele,Helena S. Paige,,"5,3",61,132,6,7
+4930854,Jej ogródek,Penelope Bloom,Objects of Attraction (tom 6),"6,2",437,779,98,7
+278461,Jak mniemam,Sylwester Zawadzki,,"4,0",1,1,0,4
+4921313,Bad Boys go to Hell,Małgorzata Piotrowska,,"6,5",566,966,123,5
+4914769,Hideaway,Penelope Douglas,Devil's Night (tom 2),"7,7",1657,3094,220,9
+4918625,Jej sekret,Penelope Bloom,Objects of Attraction (tom 5),"6,6",591,993,121,7
+4922612,Cassiano Boss,Angelika Łabuda,Dangerous (tom 1),"5,5",379,700,125,3
+4919532,Serce diabła,Meghan March,The Forge Trilogy (tom 3),"7,6",856,1414,99,8
+4914942,Szczęście diabła,Meghan March,The Forge Trilogy (tom 2),"7,6",923,1563,100,8
+4893332,Chaser,Kylie Scott,Dive Bar (tom 3),"7,1",361,729,47,8
+302777,"Ekskluzywny żebrak czyli ks. Jan Kaczkowski o tym, co najważniejsze",Jan Kaczkowski,,"7,2",410,894,65,6
+4909348,Droga do ciebie,Kandi Steiner,,"7,6",535,1105,87,10
+4922525,Rozgrywka z sąsiadem,R.L. Mathewson,Sąsiad z piekła rodem (tom 1),"6,9",948,1601,138,9
+4856386,Pogięte bajki,Marcin Pełka,Pogięte bajki (tom 1),"5,3",114,196,31,6
+4890213,Więcej niż on,Jay McLean,Więcej (tom 3),"7,5",400,933,44,8
+4875307,Więcej niż ona,Jay McLean,Więcej (tom 2),"7,6",553,1226,58,8
+4897138,"Wszystko, czego pragnę w te święta",Anna Langner,,"7,0",839,1443,181,8
+4879673,Hate to Love You,Tijan,,"6,9",1141,2077,133,7
+4887379,Złota dziewczyna,Sophie Davis,Blind Barriers Trilogy (tom 1),"6,9",110,349,40,7
+4896133,Devlin,Jennifer L. Armentrout,de Vincent (tom 3),"8,0",1456,2535,169,9
+4899047,Pakt z diabłem,Meghan March,The Forge Trilogy (tom 1),"7,5",1242,2323,160,8
+4908199,Jego przesyłka,Penelope Bloom,Objects of Attraction (tom 4),"6,7",735,1206,151,8
+4888714,Twist,Kylie Scott,Dive Bar (tom 2),"7,0",432,837,47,8
+4904719,Zniszcz mnie,Anna Langner,Zniszcz mnie (tom 1),"7,3",981,2006,203,8
+4880981,Dirty,Kylie Scott,Dive Bar (tom 1),"6,8",703,1304,90,8
+4893498,Corrupt,Penelope Douglas,Devil's Night (tom 1),"7,1",3262,5800,459,9
+4879874,Ego,Krzysztof Kościelski,,"6,4",121,254,15,8
+4871932,"Do dziewczyn, które czuły zbyt wiele","Brittainy C. Cherry, Kandi Steiner",,"6,5",142,514,28,9
+4887251,Dzikie pragnienie,Jay Crownover,Bracia Warner (tom 1),"7,0",676,1248,89,8
+4880983,Jego babeczka,Penelope Bloom,Objects of Attraction (tom 3),"6,3",871,1428,181,8
+4884481,Zakochani rozbitkowie,Julie Johnson,Zakochani rozbitkowie (tom 1),"6,6",323,630,62,8
+4892842,River,Samantha Towle,,"7,8",1110,1891,167,9
+4877203,Dziewczyna taka jak ja,Ginger Scott,Jak my (tom 2),"7,3",429,1131,50,7
+4858166,Mieszkając z wrogiem,Penelope Ward,,"7,3",1769,3118,206,7
+4813256,"Drwal. Miłość, która narodziła się z natury",K.N. Haner,,"6,2",1362,2232,298,7
+4862692,Słodki drań,"Vi Keeland, Penelope Ward",,"7,5",1450,2830,179,8
+4870802,Odcień północy,L.J. Shen,,"7,2",1189,2140,126,7
+4870256,Napij się i zadzwoń do mnie,Penelope Ward,,"6,9",1024,1912,139,8
+4880980,Jej wisienki,Penelope Bloom,Objects of Attraction (tom 2),"6,5",1078,1721,163,8
+4881560,Punk 57,Penelope Douglas,,"7,5",3547,6422,474,10
+4875135,Jego banan,Penelope Bloom,Objects of Attraction (tom 1),"6,3",1609,2599,292,8
+4878250,Hold You Close,"Corinne Michaels, Melanie Harlow",,"7,2",1117,1969,159,9
+4880668,Śmiały podryw,Scarlett Cole,Second Circle Tattoos (tom 3),"7,4",747,1461,95,8
+4870668,Walcząc z ciszą,Aly Martinez,On the Ropes (tom 1),"7,8",606,1355,92,8
+4875871,Cena pocałunku,Linda Kage,Forbidden Men (tom 1),"7,3",1048,2182,141,9
+4821890,Bestia. Przebudzenie Lizzie Danton,L.A. Fiore,,"7,1",641,1292,111,9
+4862351,Roziskrzone noce,Beatrix Gurian,Roziskrzone noce (tom 1),"5,7",210,667,51,2
+4872433,Mroczne pożądanie,T.M. Frazier,The Dark Light of Day (tom 1.5),"7,3",562,1094,47,7
+4867606,Mroczna miłość,T.M. Frazier,The Dark Light of Day (tom 1),"7,8",1100,2414,125,8
+4877288,Gabriel,Jennifer L. Armentrout,de Vincent (tom 2),"7,5",1565,2712,154,8
+90884,Przyrzeczeni,Beth Fantaskey,Jessica (tom 1),"7,3",1546,2940,185,7
+4847066,Zakochany przez przypadek,Yoav Blum,,"6,9",248,576,87,10
+4861855,Lucyfer,Jennifer L. Armentrout,de Vincent (tom 1),"7,2",2465,4695,297,9
+4819762,Zapomnij o mnie,K.N. Haner,,"7,1",1521,3217,285,5
+4861788,Mikołaj na zamówienie,"Jenika Snow, Jordan Marie",,"5,0",511,823,114,5
+4858724,Więcej niż my,Jay McLean,Więcej (tom 1),"7,4",1009,2149,124,7
+253475,Kochając pana Danielsa,Brittainy C. Cherry,,"8,0",3609,6543,565,10
+4853218,Deep,Kylie Scott,Stage Dive (tom 4),"7,2",590,1173,61,8
+4824013,Chłopak taki jak ty,Ginger Scott,Jak my (tom 1),"7,6",972,2338,141,7
+125231,Wiersze o moim psychiatrze,Andrzej Kotański,,"7,8",392,1059,38,10
+4821920,Weteran,Katy Regnery,Współczesne baśnie (tom 1),"7,6",1580,2833,279,8
+4158201,Mleko i miód,Rupi Kaur,,"6,9",3756,7651,446,7
+4851205,Rozdarte serce,Scarlett Cole,Second Circle Tattoos (tom 2),"7,2",954,1748,86,9
+272213,Sześć serc,L.H. Cosway,Hearts (tom 1),"7,5",339,893,56,9
+271267,"Powietrze, którym oddycha",Brittainy C. Cherry,Elements. Żywioły. (tom 1),"7,9",3268,6845,403,9
+161287,Mroczna toń,Tricia Rayburn,Syrena (tom 3),"6,9",639,1680,81,7
+119669,Głębia,Tricia Rayburn,Syrena (tom 2),"7,1",987,2212,131,7
+96044,Syrena,Tricia Rayburn,Syrena (tom 1),"7,1",1641,3758,253,7
+4817617,Lead,Kylie Scott,Stage Dive (tom 3),"7,5",683,1316,67,8
+4800131,Play,Kylie Scott,Stage Dive (tom 2),"7,5",844,1521,88,9
+4712134,Lick,Kylie Scott,Stage Dive (tom 1),"7,2",1103,2109,112,9
+195263,Wśród celebrytów,Luke Bradbury,,"5,5",122,388,13,5
+4846376,Miała dzikie serce,Atticus,,"7,0",279,646,63,10
+4592087,Koralina,Neil Gaiman,,"7,0",8543,15890,808,8
+4655629,Bez uczuć,Mia Sheridan,A Sign of Love (tom 8),"7,5",1792,3696,193,8
+4804147,Najtwardsza stal,Scarlett Cole,Second Circle Tattoos (tom 1),"7,5",1555,2827,172,9
+3874262,Bez szans,Mia Sheridan,A Sign of Love (tom 5),"7,6",2420,5204,256,8
+4310476,Baśnie barda Beedle’a,J.K. Rowling,,"7,4",10849,21561,904,9
+310777,Bez winy,Mia Sheridan,A Sign of Love (tom 6),"7,9",3312,6843,339,10
+293535,Bez słów,Mia Sheridan,A Sign of Love (tom 3),"7,9",5965,11755,790,10
+204919,Siedem grzechów głównych. Pycha,Robin Wasserman,Siedem grzechów głównych - cykl (tom 3),"6,3",54,191,6,5
+204920,Siedem grzechów głównych. Gniew,Robin Wasserman,Siedem grzechów głównych - cykl (tom 4),"6,9",43,169,6,5
+180141,Siedem bajek o królewnach,Lech Abłażej,,"7,9",16,26,3,10
+4745144,Wykłady Profesora Niczego,Mieciu Mietczyński,,"6,9",294,646,52,7
+200170,Siedem grzechów głównych. Zazdrość,Robin Wasserman,Siedem grzechów głównych - cykl (tom 2),"6,1",86,229,12,5
+200168,Siedem grzechów głównych. Nieczystość,Robin Wasserman,Siedem grzechów głównych - cykl (tom 1),"5,8",125,361,20,5
+234051,Nie dajesz mi spać,Alice Clayton,Nie dajesz mi spać (tom 1),"7,4",4092,7737,434,6
+4771502,Forget Me Always,Sara Wolf,Lovely Vicious (tom 2),"7,5",1066,1905,68,7
+4805788,Remember me Forever,Sara Wolf,Lovely Vicious (tom 3),"7,6",885,1717,68,7
+4287848,Love Me Never,Sara Wolf,Lovely Vicious (tom 1),"7,4",1149,2342,84,8
+270272,Znak czterech,Arthur Conan Doyle,Sherlock Holmes (tom 2),"7,3",181,332,17,7
+4806522,Cel,Elle Kennedy,Off-Campus (tom 4),"7,4",2273,4227,166,9
+260718,Jesteś zagadką,Kendall Ryan,Unravel Me (tom 1),"6,4",803,1771,89,7
+198605,Klub Porcelanowej Filiżanki,Vanessa Greene,,"6,3",310,869,65,7
+4061976,Zakazane życzenie,Jessica Khoury,The Forbidden Wish (tom 1),"7,3",1409,3522,308,10
+270407,Studium w Szkarłacie,Arthur Conan Doyle,Sherlock Holmes (tom 1),"7,5",250,497,22,8
+272157,Pięć sposobów na upadek,K.A. Tucker,Ten Tiny Breaths (tom 4),"7,9",2116,4880,172,8
+227295,Jedno małe kłamstwo,K.A. Tucker,Ten Tiny Breaths (tom 2),"8,0",3405,6974,313,10
+222807,Dziesięć płytkich oddechów,K.A. Tucker,Ten Tiny Breaths (tom 1),"7,8",4916,11081,550,9
+180743,Coś do ukrycia,Cora Carmack,Coś do stracenia (tom 2),"7,2",1566,3085,127,8
+200884,Dopóki śpiewa słowik,Antonia Michaelis,,"6,5",273,910,77,7
+309305,Remy,Katy Evans,Real (tom 3),"7,6",1040,2391,70,7
+109516,Zieleń szmaragdu,Kerstin Gier,Trylogia Czasu (tom 3),"8,1",7443,13543,728,10
+109514,Błękit szafiru,Kerstin Gier,Trylogia Czasu (tom 2),"8,0",7743,13440,626,10
+252374,Delirium. Opowiadania,Lauren Oliver,Delirium (tom 3.5),"7,2",637,2268,63,10
+3652739,Nigdziebądź,Neil Gaiman,,"7,4",8376,17991,665,8
+100215,Czerwień rubinu,Kerstin Gier,Trylogia Czasu (tom 1),"7,9",8703,16504,1113,10
+3705027,November 9,Colleen Hoover,,"8,1",8233,16318,1043,10
+299406,Mine,Katy Evans,Real (tom 2),"7,7",1788,3417,141,8
+293310,Real,Katy Evans,Real (tom 1),"7,7",2835,5513,303,8
+99567,Zdradzona,Amy Meredith,Dotyk ciemności (tom 4),"7,0",884,2098,60,7
+4222494,Podbój,Elle Kennedy,Off-Campus (tom 3),"7,7",3137,5528,213,9
+295276,"Chłopak, który stracił głowę",John Corey Whaley,,"7,0",1144,3463,190,8
+255868,Art & Soul,Brittainy C. Cherry,,"7,7",1889,3864,232,9
+99426,Gorączka,Amy Meredith,Dotyk ciemności (tom 3),"6,9",1209,2446,74,6
+86568,Polowanie,Amy Meredith,Dotyk ciemności (tom 2),"6,8",1395,2843,93,6
+289620,Panika,Lauren Oliver,,"6,8",2114,5542,289,8
+215848,Buntownik,Jay Crownover,Naznaczeni Mężczyźni (tom 1),"7,6",2517,5066,197,8
+88674,Całopalne ofiary,Laurell K. Hamilton,Anita Blake (tom 7),"7,4",550,1104,37,9
+256421,Błąd,Elle Kennedy,Off-Campus (tom 2),"7,5",4252,7357,318,9
+291677,Układ,Elle Kennedy,Off-Campus (tom 1),"8,0",6117,10852,588,10
+302896,Mimo naszych kłamstw,Tarryn Fisher,Mimo moich win (tom 3),"7,8",1246,2904,129,6
+66206,Cienie,Amy Meredith,Dotyk ciemności (tom 1),"6,4",2210,4309,228,6
+301242,Silver. Pierwsza księga snów,Kerstin Gier,Trylogia Snów (tom 1),"7,5",3366,8271,409,9
+302895,Mimo twoich łez,Tarryn Fisher,Mimo moich win (tom 2),"7,4",1272,2799,129,6
+301675,Mimo moich win,Tarryn Fisher,Mimo moich win (tom 1),"7,5",1895,4778,276,6
+3775794,Noc Kupały,Katarzyna Berenika Miszczuk,Kwiat paproci (tom 2),"7,4",7288,10999,758,10
+214345,Dar Julii,Tahereh Mafi,Dotknij Mnie (tom 3),"8,3",5396,11278,542,10
+260465,Sny bogów i potworów (część 2),Laini Taylor,Córka dymu i kości (tom 3.2),"7,6",607,1543,41,10
+243051,Dni krwi i światła gwiazd,Laini Taylor,Córka dymu i kości (tom 2),"7,4",1471,3280,143,10
+253806,Sny bogów i potworów (część 1),Laini Taylor,Córka dymu i kości (tom 3.1),"7,6",769,2184,47,10
+222944,Nieznajomy,Megan Hart,,"6,8",345,1044,32,6
+181065,Sekret Julii,Tahereh Mafi,Dotknij Mnie (tom 2),"8,0",6190,12756,563,9
+270018,Zima koloru turkusu,Carina Bartsch,Lato koloru wiśni (tom 2),"7,8",1909,3207,237,10
+255224,Lato koloru wiśni,Carina Bartsch,Lato koloru wiśni (tom 1),"7,8",2306,4374,353,10
+213153,Goth,"Oiwa Kendi, Otsuichi",,"7,1",184,303,19,6
+230871,Hideout,Masasumi Kakizaki,,"7,1",244,373,38,8
+115394,Vampire Knight tom 9,Hino Matsuri,Vampire Knight (tom 9),"7,1",185,330,8,7
+109061,Vampire Knight tom 8,Hino Matsuri,Vampire Knight (tom 8),"7,2",194,351,6,7
+103413,Vampire Knight tom 7,Hino Matsuri,Vampire Knight (tom 7),"7,1",206,368,7,7
+96128,Vampire Knight tom 6,Hino Matsuri,Vampire Knight (tom 6),"7,0",222,407,8,7
+87097,Vampire Knight tom 5,Hino Matsuri,Vampire Knight (tom 5),"7,0",247,430,5,7
+79328,Vampire Knight tom 4,Hino Matsuri,Vampire Knight (tom 4),"7,0",274,475,6,7
+72046,Vampire Knight tom 3,Hino Matsuri,Vampire Knight (tom 3),"7,0",293,504,9,7
+72043,Vampire Knight tom 1,Hino Matsuri,Vampire Knight (tom 1),"6,9",447,803,24,7
+72045,Vampire Knight tom 2,Hino Matsuri,Vampire Knight (tom 2),"7,0",344,572,11,7
+305319,Miłosne cierpienia umarłych,Junji Ito,,"7,7",102,215,17,7
+183175,Spod kołdry,Luke Bradbury,,"5,2",282,712,37,5
+262011,Szeptucha,Katarzyna Berenika Miszczuk,Kwiat paproci (tom 1),"7,2",10321,18197,1630,10
+242357,Eleonora i Park,Rainbow Rowell,,"7,2",5150,10535,703,9
+97460,Dracula,Bram Stoker,Dracula (tom 1),"7,3",287,487,48,6
+251187,Maybe Someday,Colleen Hoover,Maybe (tom 1),"8,2",5542,11069,836,10
+188886,Gdybym była Tobą,Lisa Renee Jones,Inside Out (tom 1),"7,3",543,1479,71,10
+222994,Hopeless,Colleen Hoover,Hopeless (tom 1),"8,2",16596,29636,2214,6
+135267,Przez ciebie,Emily Hainsworth,,"6,6",322,890,42,8
+259819,Rzeczy ulotne. Cuda i zmyślenia,Neil Gaiman,,"7,1",254,942,30,10
+173264,Do szaleństwa,Cherrie Lynn,Ross Siblings (tom 2),"7,1",1764,3333,120,8
+183170,Do utraty tchu,Cherrie Lynn,Ross Siblings (tom 3),"7,4",1192,2484,88,8
+151846,Cyrk nocy,Erin Morgenstern,,"7,1",2623,7749,465,10
+172714,Piękna katastrofa,Jamie McGuire,Piękna katastrofa (tom 1),"7,3",895,1909,133,10
+104388,Mrok kwiatów,Penny Blubaugh,,"4,5",244,606,52,3
+8546,Igrzyska śmierci,Suzanne Collins,Igrzyska śmierci (tom 1),"8,2",16877,25857,1914,10
+47513,W pierścieniu ognia,Suzanne Collins,Igrzyska śmierci (tom 2),"8,1",36372,55247,2203,10
+55229,Kosogłos,Suzanne Collins,Igrzyska śmierci (tom 3),"7,9",33982,52470,2533,10
+140624,"Eli, Eli",Wojciech Tochman,,"7,4",973,2493,149,7
+194650,Szczęśliwa przegrana,Katee Robert,Come Undone (tom 3),"6,9",812,1774,52,8
+178443,Szczęśliwe poszukiwania,Katee Robert,Come Undone (tom 2),"6,8",971,1937,59,9
+59926,Skóra,Kathe Koja,,"6,6",112,324,17,6
+161055,Szczęśliwa zamiana,Katee Robert,Come Undone (tom 1),"6,7",1929,3638,167,8
+50327,Królowa lata,Melissa Marr,Królowa lata (tom 1),"6,5",1828,3755,168,7
+4132,Od nowiu do pełni,Hanna Fronczak,,"5,9",167,302,18,9
+122813,Zapomniane,Cat Patrick,,"7,2",1446,3905,259,10
+146232,Paskuda & Co,Magdalena Kozak,,"7,2",715,1395,110,9
+28497,Uzdrowiciel,Sharon Sala,,"6,5",214,387,27,10
+54233,Dieta miłośniczek czekolady,Carole Matthews,Klub Miłośniczek Czekolady (tom 2),"6,9",407,739,49,10
+93998,Ognista,Sophie Jordan,Ognista (tom 1),"7,2",1634,3911,198,9
+65420,Klub Miłośniczek Czekolady,Carole Matthews,Klub Miłośniczek Czekolady (tom 1),"6,8",551,1068,75,10
+231419,Cztery,Veronica Roth,Niezgodna (tom 0.5),"7,3",2204,4918,264,8
+167133,Requiem,Lauren Oliver,Delirium (tom 3),"7,8",4619,9374,439,10
+150534,Pandemonium,Lauren Oliver,Delirium (tom 2),"7,9",5381,11097,528,10
+171188,Klątwa Tygrysa. Przeznaczenie,Colleen Houck,Klątwa Tygrysa (tom 4),"8,1",2076,4513,217,10
+146943,Klątwa tygrysa. Wyprawa,Colleen Houck,Klątwa Tygrysa (tom 3),"7,8",2423,4863,209,10
+137393,Klątwa tygrysa. Wyzwanie,Colleen Houck,Klątwa Tygrysa (tom 2),"7,8",2800,5370,278,10
+245775,Cztery sekundy do stracenia,K.A. Tucker,Ten Tiny Breaths (tom 3),"7,8",2981,6909,268,8
+222457,Upadek Arkadii,Kai Meyer,Arkadia (tom 3),"7,4",173,505,23,8
+213813,Arkadia płonie,Kai Meyer,Arkadia (tom 2),"7,3",218,564,24,9
+194861,Przebudzenie Arkadii,Kai Meyer,Arkadia (tom 1),"6,9",407,1062,59,9
+197637,Wierna,Veronica Roth,Niezgodna (tom 3),"7,1",10181,18640,968,8
+147730,Zbuntowana,Veronica Roth,Niezgodna (tom 2),"7,4",7520,12736,616,9
+95156,Niezgodna,Veronica Roth,Niezgodna (tom 1),"7,6",4089,6768,546,9
+218262,Na krawędzi zawsze,J.A. Redmerski,Na krawędzi nigdy (tom 2),"7,5",1819,3981,194,10
+57786,Książę Mgły,Carlos Ruiz Zafón,Trylogia mgły (tom 1),"6,8",12366,21070,1152,6
+104382,Spętani przez bogów,Josephine Angelini,Spętani przez bogów (tom 1),"7,7",2519,5558,340,9
+113071,Furie,Elizabeth Miles,,"6,0",455,1075,78,5
+144227,Dym i lustra,Neil Gaiman,,"7,1",441,1127,47,10
+181764,Bunt bogini,Josephine Angelini,Spętani przez bogów (tom 3),"8,0",1270,2790,134,9
+141523,Wędrówka przez sen,Josephine Angelini,Spętani przez bogów (tom 2),"7,9",1669,3260,159,9
+51084,Poezje,Edgar Allan Poe,,"8,0",451,1184,35,10
+159848,Wszystkie smaki namiętności,Lilli Feisty,,"6,0",623,1236,81,8
+4930163,Nigdziebądź,Neil Gaiman,,"7,6",1669,3190,124,8
+202342,Na krawędzi nigdy,J.A. Redmerski,Na krawędzi nigdy (tom 1),"7,9",3303,7923,419,10
+53839,Beautiful People,Mitsukazu Mihara,,"6,3",206,366,24,10
+98733,Neva,Sara Grant,,"6,7",926,2283,128,8
+27825,Gargulec,Andrew Davidson,,"7,5",676,1324,94,8
+125845,Klątwa Tygrysa,Colleen Houck,Klątwa Tygrysa (tom 1),"7,4",4179,9214,714,10
+47512,Miasto popiołów,Cassandra Clare,Dary Anioła (tom 2),"7,7",4700,7182,306,8
+4116,Miasto Kości,Cassandra Clare,Dary Anioła (tom 1),"7,5",6218,9644,686,8
+62984,Sonata dla Miriam,Linda Olsson,,"5,8",77,164,13,5
+49660,Miasto szkła,Cassandra Clare,Dary Anioła (tom 3),"7,9",4431,6940,291,8
+166790,Wybrani,Christi Daugherty,Wybrani (tom 1),"7,9",8197,16894,1113,8
+170105,Z innej bajki,"Jodi Picoult, Samantha van Leer",Z innej bajki (tom 1),"6,6",1610,4198,274,8
+192882,Dziewczyna wchodzi do baru,Helena S. Paige,,"5,4",191,417,44,6
+103743,Pamięć krwi,Izabela Degórska,Pamięć krwi (tom 1),"6,5",363,855,67,8
+149102,Duchy na zamku,Ivo Van Orshoven,,"6,8",6,13,1,7
+201031,Balsamista #7,Mitsukazu Mihara,Balsamista (tom 7),"8,1",116,210,18,10
+142492,Baśniarz,Antonia Michaelis,,"8,1",1820,5178,398,10
+94513,Lucian,Isabel Abedi,,"7,1",976,2188,151,10
+49291,Mroczny książę,Christine Feehan,Mrok (tom 1),"5,7",791,1579,106,4
+156524,Tak blisko...,Tammara Webber,Kontury Serca (tom 1),"7,7",4416,8780,474,10
+4134,Słodka jak krew,Petra Neomillner,,"6,0",297,587,30,5
+48271,Zdążyć przed Panem Bogiem,Hanna Krall,,"7,1",9163,15684,284,10
+34704,Wybór opowiadań,Tadeusz Borowski,,"6,8",1642,2792,100,9
+121218,Córka dymu i kości,Laini Taylor,Córka dymu i kości (tom 1),"7,4",3698,7598,491,10
+170225,Larista,Melissa Darwood,Wysłannicy (tom 1),"7,1",934,2212,188,9
+166285,Idealna chemia,Simone Elkeles,Idealna chemia (tom 1),"7,6",2429,4637,279,10
+179279,"Serce na talerzu. O miłości, gotowaniu i odkrywaniu życiowej pasji",Alyssa Shelasky,,"5,5",50,124,11,6
+102586,Płonący stos. Księga 2: Kamienne skrzydło. Naszyjnik wody,Cate Tiernan,Płonący stos (tom 2),"7,3",288,843,31,10
+85161,Płonący stos. Księga 1: Kielich wiatru. Krąg popiołów,Cate Tiernan,Płonący stos (tom 1),"7,1",456,1404,68,10
+153709,Nowe oblicze Greya,E. L. James,Pięćdziesiąt odcieni (tom 3),"6,4",20576,32684,1323,9
+49178,"O psie, który jeździł koleją",Roman Pisarski,,"7,0",13105,22538,852,9
+153707,Ciemniejsza strona Greya,E. L. James,Pięćdziesiąt odcieni (tom 2),"6,4",24672,37673,1587,9
+146615,Pięćdziesiąt twarzy Greya,E. L. James,Pięćdziesiąt odcieni (tom 1),"5,8",30433,43718,3844,9
+33854,Cierpienia młodego Wertera,Johann Wolfgang von Goethe,,"5,2",12067,19616,533,6
+166279,Cierpienia młodego wampira,Tim Collins,,"6,4",92,198,19,5
+123091,Jeszcze się spotkamy. Miłość ponad piekłem,Madeleine Goldstein,,"7,4",40,154,6,7
+80257,Morfina,"Chika Adachi, Kumiko Saiki",,"6,3",128,254,9,10
+60296,Balsamista #6,Mitsukazu Mihara,Balsamista (tom 6),"7,9",211,376,11,10
+60293,Balsamista #5,Mitsukazu Mihara,Balsamista (tom 5),"7,9",232,405,8,10
+25050,Balsamista #4,Mitsukazu Mihara,Balsamista (tom 4),"7,8",253,428,9,10
+60290,Balsamista #3,Mitsukazu Mihara,Balsamista (tom 3),"7,8",268,449,8,10
+60251,Balsamista #2,Mitsukazu Mihara,Balsamista (tom 2),"7,5",325,520,11,10
+53837,Balsamista #1,Mitsukazu Mihara,Balsamista (tom 1),"7,3",467,850,27,10
+38622,Tango,Sławomir Mrożek,,"7,0",7824,12851,247,10
+139417,Dotyk Julii,Tahereh Mafi,Dotknij Mnie (tom 1),"7,7",3085,5984,577,10
+78943,7 razy dziś,Lauren Oliver,,"7,0",2061,4455,321,10
+189412,Piękne kłamstwa,Lisa Unger,Ridley Jones (tom 1),"6,6",429,946,40,6
+77319,Początek,Ellen Schreiber,Pocałunki wampira (tom 1),"6,2",911,1920,117,9
+56193,Uwięzieni,Lisa Jane Smith,Pamiętniki Wampirów (tom 6),"6,0",1248,2650,33,6
+56185,Powrót o zmierzchu,Lisa Jane Smith,Pamiętniki Wampirów (tom 5),"6,0",1457,2970,41,7
+11487,Mrok,Lisa Jane Smith,Pamiętniki Wampirów (tom 4),"6,1",1846,3616,54,7
+8682,Szał,Lisa Jane Smith,Pamiętniki Wampirów (tom 3),"6,1",1858,3542,64,8
+10241,Walka,Lisa Jane Smith,Pamiętniki Wampirów (tom 2),"6,0",1933,3628,79,8
+132479,Przebudzenie,Lisa Jane Smith,Pamiętniki Wampirów (tom 1),"5,8",2215,4034,154,8
+28355,Przed świtem,Stephenie Meyer,Zmierzch (tom 4),"6,3",32609,49844,1583,6
+36854,Zaćmienie,Stephenie Meyer,Zmierzch (tom 3),"6,2",33155,50562,1266,6
+21525,Księżyc w nowiu,Stephenie Meyer,Zmierzch (tom 2),"6,0",34807,52008,1581,6
+51794,Zmierzch,Stephenie Meyer,Zmierzch (tom 1),"6,2",42041,61436,3658,8
+3896,Brisingr,Christopher Paolini,Dziedzictwo (tom 3),"7,1",8732,14773,322,7
+122410,Nigdy i na zawsze,Ann Brashares,,"7,2",1615,5333,253,8
+3909,Najstarszy,Christopher Paolini,Dziedzictwo (tom 2),"7,0",10283,16844,372,7
+5338,Eragon,Christopher Paolini,Dziedzictwo (tom 1),"6,8",15039,24240,965,7
+8942,Grzeszne rozkosze,Laurell K. Hamilton,Anita Blake (tom 1),"7,1",1092,2299,104,10
+117877,Scarlett,Barbara Baraldi,Scarlett (tom 1),"7,1",1282,2773,182,10
+32640,Pogromca wampirów,Graham Masterton,,"6,1",292,593,24,7
+4543,Lodowa pustynia,Maite Carranza,Wojna czarownic (tom 2),"7,0",923,1738,55,7
+10256,Klan wilczycy,Maite Carranza,Wojna czarownic (tom 1),"6,6",1347,2610,105,7
+48980,Ever,Alyson Noël,Nieśmiertelni (tom 1),"6,5",6269,11074,619,5
+54055,Wybrana,"Kristin Cast, Phyllis Christine Cast",Dom Nocy (tom 3),"6,7",7268,13105,379,7
+48119,Zdradzona,"Kristin Cast, Phyllis Christine Cast",Dom Nocy (tom 2),"6,6",8317,14587,478,6
+10572,Naznaczona,"Kristin Cast, Phyllis Christine Cast",Dom Nocy (tom 1),"6,4",11362,19212,1124,8
+51347,Upadli,Lauren Kate,Upadli (tom 1),"6,7",7903,16336,777,7
+49638,Pamiętnik księżniczki,Meg Cabot,Pamiętnik księżniczki (tom 1),"6,1",6285,10892,355,7
+50120,Koniec końców,Lemony Snicket,Seria niefortunnych zdarzeń (tom 13),"7,1",1604,3446,88,7
+10132,Krwiożerczy karnawał,Lemony Snicket,Seria niefortunnych zdarzeń (tom 9),"7,0",1948,3862,56,7
+9781,Tartak tortur,Lemony Snicket,Seria niefortunnych zdarzeń (tom 4),"6,9",2647,4856,75,7
+8808,Szkodliwy szpital,Lemony Snicket,Seria niefortunnych zdarzeń (tom 8),"7,0",2066,4047,66,7
+38675,Przykry początek,Lemony Snicket,Seria niefortunnych zdarzeń (tom 1),"6,9",4322,7727,297,7
+50119,Przedostatnia pułapka,Lemony Snicket,Seria niefortunnych zdarzeń (tom 12),"7,2",1614,3434,52,7
+9139,Ogromne okno,Lemony Snicket,Seria niefortunnych zdarzeń (tom 3),"6,9",2977,5250,93,7
+9138,Zjezdne zbocze,Lemony Snicket,Seria niefortunnych zdarzeń (tom 10),"7,0",1827,3711,57,7
+53922,Wredna wioska,Lemony Snicket,Seria niefortunnych zdarzeń (tom 7),"7,0",2090,4055,66,7
+50117,Winda widmo,Lemony Snicket,Seria niefortunnych zdarzeń (tom 6),"7,0",2197,4207,62,7
+50116,Akademia antypatii,Lemony Snicket,Seria niefortunnych zdarzeń (tom 5),"7,0",2481,4474,77,7
+10306,Gabinet gadów,Lemony Snicket,Seria niefortunnych zdarzeń (tom 2),"6,9",3397,5753,125,7
+50118,Groźna grota,Lemony Snicket,Seria niefortunnych zdarzeń (tom 11),"7,0",1812,3691,50,7
+95793,Z ciemnością jej do twarzy,Kelly Keaton,Bogowie i potwory (tom 1),"6,9",994,2346,164,10
+61714,Zew krwi,Nancy A. Collins,,"5,7",81,204,12,7
+61502,Taniec śmierci,Laurell K. Hamilton,Anita Blake (tom 6),"7,6",595,1185,35,10
+48050,Przynieście mi głowę wiedźmy,Kim Harrison,Zapadlisko (tom 1),"6,8",1002,2260,76,9
+144497,Cienie,Kelly Creagh,Nevermore (tom 2),"7,6",1020,2560,120,10
+56287,Kształt demona,Amelia Atwater-Rhodes,Den of Shadows (tom 2),"5,9",381,632,33,8
+70629,Anioł,Dorotea de Spirito,,"6,8",1148,2404,165,8
+55337,Kafejka U Lunatyków,Laurell K. Hamilton,Anita Blake (tom 4),"7,5",696,1251,39,10
+55335,Cyrk potępieńców,Laurell K. Hamilton,Anita Blake (tom 3),"7,4",382,617,18,10
+54013,Uśmiechnięty nieboszczyk,Laurell K. Hamilton,Anita Blake (tom 2),"7,4",313,538,17,10
+50654,Trupia główka,Laurell K. Hamilton,Anita Blake (tom 5),"7,5",645,1245,36,10
+69244,Każda magia jest dobra,Kim Harrison,Zapadlisko (tom 3),"7,4",614,1401,38,9
+49498,"Dobry, zły i nieumarły",Kim Harrison,Zapadlisko (tom 2),"7,3",648,1412,36,9
+78942,Delirium,Lauren Oliver,Delirium (tom 1),"7,8",7867,19287,1028,10
+40288,Krucze Wrota,Anthony Horowitz,Księga Pięciorga (tom 1),"7,0",439,950,38,9
+55833,Zmierzch świata,Anthony Horowitz,Księga Pięciorga (tom 3),"7,1",215,491,11,9
+10197,Mroczna Gwiazda,Anthony Horowitz,Księga Pięciorga (tom 2),"7,2",291,582,17,9
+50996,Koniec,Lisa McMann,Sen (tom 3),"6,7",1356,2610,80,9
+50995,Mgła,Lisa McMann,Sen (tom 2),"6,8",1587,2827,90,9
+8978,Sen,Lisa McMann,Sen (tom 1),"6,7",2085,4024,202,9
+90828,Kruk,Kelly Creagh,Nevermore (tom 1),"7,4",2168,5220,314,10
+47716,Mroczny sekret,Libba Bray,Magiczny Krąg (tom 1),"7,0",3086,7023,303,8
+28438,Wilczyca,Katarzyna Berenika Miszczuk,Margo Cook (tom 2),"7,0",478,820,55,9
+27865,Wilk,Katarzyna Berenika Miszczuk,Margo Cook (tom 1),"6,5",547,917,76,10
+98216,Retrum. Kiedy byliśmy martwi,Francesc Miralles,Retrum (tom 1),"7,1",325,788,49,10
+56444,Inni,Ewa Draga,,"6,6",339,569,51,8
+28524,Radio duchów,Leopoldo Gout,,"5,2",205,365,32,7
+56680,Wymiana studencka,Abby McDonald,,"6,5",313,711,42,8
+77510,Dzikie marzenia,Jennifer Blake,,"6,3",21,44,4,9
+90559,Odcień fioletu,Jeri Smith-Ready,Odcień Fioletu (tom 1),"6,8",477,1078,61,8
+53186,Wizje w mroku: Tajemnicza moc. Opętany. Pasja,Lisa Jane Smith,,"7,3",2166,4039,231,8
+50427,Łowczyni. Czarny świt. Światło nocy,Lisa Jane Smith,Świat Nocy (tom 3),"7,2",1642,3347,80,9
+50426,Wybrani. Anioł ciemności. Pakt dusz,Lisa Jane Smith,Świat Nocy (tom 2),"7,1",1941,3729,113,9
+8971,Dotyk wampira. Córki nocy. Zaklinaczka,Lisa Jane Smith,Świat Nocy (tom 1),"6,7",2740,5050,213,9
+53032,Nieśmiertelny,Gillian Shields,Nieśmiertelny (tom 1),"6,1",1170,2237,134,8
+102447,Nawiedzone miasteczko Shadow Hills,Anastasia Hopcus,,"6,9",561,1112,81,8
+104384,Strąceni,Gwen Hayes,Strąceni (tom 1),"6,9",1475,3120,152,8
+99405,Porzuceni,Meg Cabot,Porzuceni (tom 1),"7,2",1822,4004,220,9
+95462,Błękitna miłość,S. C. Ransom,Błękitna miłość (tom 1),"6,9",1212,2809,140,8
+29229,Whisper. Nawiedzony dom,Isabel Abedi,,"6,9",824,1505,93,9
+25798,Moja noc jest twoim dniem,Melanie Rose,,"7,0",170,284,22,9
+66245,Paranormalność,Kiersten White,Paranormalność (tom 1),"6,9",1137,2584,120,6
+47693,Szeptem,Becca Fitzpatrick,Szeptem (tom 1),"7,4",18987,33571,2155,8
+113806,Wampiry z Morganville. Księga 6: Pojedynek,Rachel Caine,Wampiry z Morganville (tom 10),"7,7",1070,2545,50,9
+95490,Wampiry z Morganville. Księga 5: Miasto widmo,Rachel Caine,Wampiry z Morganville (tom 9),"7,7",1401,3136,59,9
+82999,Wampiry z Morganville. Księga 4: Rozwiane cienie. Pocałunek śmierci,Rachel Caine,Wampiry z Morganville (tom 7-8),"7,6",1762,3520,66,9
+56617,"Wampiry z Morganville. Księga 3: Pan Ciemności, Godzina Łowów",Rachel Caine,Wampiry z Morganville (tom 5-6),"7,6",2075,3936,80,9
+56622,"Wampiry z Morganville. Księga 2: Nocna aleja, Maskarada szaleńców",Rachel Caine,Wampiry z Morganville (tom 3-4),"7,6",2005,3701,98,9
+56619,Wampiry z Morganville. Księga 1: Przeklęty dom. Bal umarłych dziewczyn,Rachel Caine,Wampiry z Morganville (tom 1-2),"7,4",2673,5001,231,9
+30440,Harry Potter i Insygnia Śmierci,J.K. Rowling,Harry Potter (tom 7),"8,3",38145,55397,1553,10
+35381,Harry Potter i Książę Półkrwi,J.K. Rowling,Harry Potter (tom 6),"8,2",37993,55107,1043,9
+10829,Harry Potter i Zakon Feniksa,J.K. Rowling,Harry Potter (tom 5),"8,3",60476,92911,1723,8
+4872,Harry Potter i Czara Ognia,J.K. Rowling,Harry Potter (tom 4),"8,1",39823,57333,1228,8
+10176,Harry Potter i więzień Azkabanu,J.K. Rowling,Harry Potter (tom 3),"8,2",41261,59011,1376,8
+9452,Harry Potter i Komnata Tajemnic,J.K. Rowling,Harry Potter (tom 2),"7,9",43076,61534,1373,8
+34408,Harry Potter i Kamień Filozoficzny,J.K. Rowling,Harry Potter (tom 1),"8,0",48037,67874,3077,8
