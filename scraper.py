@@ -13,8 +13,8 @@ chrome_options.add_argument("--headless=new")  # Nowy tryb headless dostępny od
 
 # Inicjalizacja przeglądarki
 driver = webdriver.Chrome(options=chrome_options)
-#driver.get('https://lubimyczytac.pl/profil/605200/stokuj/biblioteczka/lista?shelfs=4553078')
-driver.get('https://lubimyczytac.pl/profil/132005/corkaksiegarza/biblioteczka/lista?shelfs=847500')
+driver.get('https://lubimyczytac.pl/profil/605200/stokuj/biblioteczka/lista?shelfs=4553078')
+#driver.get('https://lubimyczytac.pl/profil/132005/corkaksiegarza/biblioteczka/lista?shelfs=847500')
 # Akceptacja ciasteczek
 try:
     accept_cookies_button = WebDriverWait(driver, 5).until(
@@ -34,9 +34,18 @@ while True:
     books = driver.find_elements(By.CLASS_NAME, 'authorAllBooks__single')
     for book in books:
         book_id = book.get_attribute('id').replace('listBookElement', '')
-        title = book.find_element(By.CLASS_NAME, 'authorAllBooks__singleTextTitle').text.strip()
+        title_element = book.find_element(By.CLASS_NAME, 'authorAllBooks__singleTextTitle')
+        title = title_element.text.strip()
         author = book.find_element(By.CLASS_NAME, 'authorAllBooks__singleTextAuthor').text.strip()
-
+        
+        # Pobranie linku do książki - pobieramy pierwszy znaleziony tag <a> wewnątrz całego elementu book
+        try:
+            book_link = book.find_element(By.TAG_NAME, "a").get_attribute("href")
+            print("success")
+        except Exception as e:
+            print(f"Nie udało się pobrać linku: {e}")
+            book_link = ''
+            
         # Pobranie informacji o cyklu
         cycle_element = book.find_elements(By.CLASS_NAME, 'listLibrary__info--cycles')
         if cycle_element:
@@ -65,9 +74,12 @@ while True:
             user_rating = ''
 
         # Pobranie liczby ocen
-        rating_count_element = book.find_elements(By.CLASS_NAME, 'listLibrary__ratingAll')
-        rating_count = rating_count_element[0].text.replace('ocen', '').strip() if rating_count_element else ''
-
+        try:
+            rating_count_element = book.find_elements(By.CLASS_NAME, 'listLibrary__ratingAll')
+            rating_count = rating_count_element[0].text.replace('ocen', '').strip() if rating_count_element else ''
+        except:
+            rating_count = 0
+            
         # Pobranie liczby czytelników i opinii
         readers_opinions = book.find_elements(By.CLASS_NAME, 'small.grey')
         readers = opinions = ''
@@ -79,7 +91,7 @@ while True:
                 opinions = text.replace('Opinie:', '').strip()
 
         # Dodanie zebranych danych do listy
-        all_books.append([book_id, title, author, cycle, avg_rating, rating_count, readers, opinions, user_rating])
+        all_books.append([book_id, title, author, cycle, avg_rating, rating_count, readers, opinions, user_rating, book_link])
 
 
 
@@ -96,7 +108,25 @@ while True:
 # Zapisz dane do pliku CSV
 with open('books.csv', mode='w', newline='', encoding='utf-8') as file:
     writer = csv.writer(file)
-    writer.writerow(['ID', 'Tytuł', 'Autor', 'Cykl', 'Średnia ocena', 'Liczba ocen', 'Czytelnicy', 'Opinie', 'Ocena użytkownika'])
+    writer.writerow(['ID', 'Tytuł', 'Autor', 'Cykl', 'Średnia ocena', 'Liczba ocen', 'Czytelnicy', 'Opinie', 'Ocena użytkownika', 'Link'])
     writer.writerows(all_books)
+    
+# # Iteracja po wszystkich książkach
+# for book in all_books:
+#     try:
+#         # Znajdź element zawierający link do książki
+#         link_element = book.find_element(By.CLASS_NAME, 'authorAllBooks__singleTextTitle')
+#         # Pobierz atrybut 'href' z elementu
+#         book_url = link_element.get_attribute('href')
+#         if book_url:
+#             driver.get(book_url)
+#             # Czekaj na załadowanie strony
+#             WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, "body")))
+#             print(f"Przejście do {book_url} zakończone sukcesem.")
+#         else:
+#             print("Nie znaleziono linku do książki.")
+#     except Exception as e:
+#         print(f"Błąd podczas otwierania strony książki: {e}")
 
+# Zamknij przeglądarkę
 driver.quit()
