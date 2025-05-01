@@ -1,12 +1,42 @@
-# Web Scraper przy użyciu BeautifulSoup/selenium
+# 📚 Web Scraper przy użyciu Selenium i BeautifulSoup
 
-Ten projekt to prosty web scraper w Pythonie, który wykorzystuje bibliotekę Selenium do zczytania danych (np. tytułów książek i autorów) ze strony oraz zapisu wyników do pliku CSV.
+Ten projekt to prosty, ale elastyczny web scraper napisany w Pythonie, służący do zbierania danych z portalu **Lubimyczytać.pl**. Głównym celem jest automatyczne pobieranie informacji o książkach (np. tytuł, autor, ocena, półki użytkownika) z publicznego profilu użytkownika, a następnie zapisanie ich do pliku CSV w celu dalszej analizy.
 
-## Struktura projektu
+## 🔧 Technologie użyte w projekcie
 
+- **Python 3**
+- **Selenium** — automatyzacja przeglądarki (Chrome)
+- **ChromeDriver** — sterowanie przeglądarką Chrome
+
+## 📁 Struktura projektu
+
+```
 /web_scraping_lubimyczytac/
 │
-├── main.py                  # Uruchamia skrypt, kontroluje przepływ
-├── scrapper.py              # Zawiera logikę Selenium do pobierania danych
-├── table_utils.py           # Operacje na danych (np. analiza, czyszczenie, eksport do CSV)
-└── books.csv                # Plik wyjściowy z danymi (tworzony przez program)
+├── main.py                  # Główna aplikacja — punkt wejścia, uruchamia scrapowanie i zapis
+├── scrapper.py              # Logika pobierania danych ze strony (Selenium)
+├── table_utils.py           # Przetwarzanie i zapis danych do CSV
+├── dane/                    # Katalog na wygenerowane dane
+│   └── books.csv            # Plik wynikowy z danymi książek
+└── requirements.txt         # Lista wymaganych bibliotek
+```
+
+## ✅ Funkcjonalności
+
+- Obsługa paginacji (przechodzi przez wszystkie strony użytkownika)
+- Pobieranie szczegółowych danych o książkach:
+  - Tytuł, autor, cykl
+  - Średnia ocena, ocena użytkownika
+  - Liczba ocen, czytelników, opinii
+  - Półki (`shelves` i `self_shelfs`)
+  - Data przeczytania (jeśli dostępna)
+- Obsługa wyjątków i błędów (np. brak danych na stronie, timeouty)
+- Zapis danych do formatu CSV
+
+## 🧠 Możliwe rozszerzenia
+
+- Użycie SQLite lub pandas do dalszej analizy
+- Eksport do Excela lub JSON
+- GUI (np. przy użyciu Tkintera lub PyWebIO)
+- Automatyczne logowanie (jeśli wymagane dla prywatnych danych)
+- Obsługa wielu użytkowników jednocześnie
