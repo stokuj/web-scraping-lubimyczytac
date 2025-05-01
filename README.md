@@ -4,3 +4,9 @@ Ten projekt to prosty web scraper w Pythonie, który wykorzystuje bibliotekę Be
 
 ## Struktura projektu
 
+/web_scraping_lubimyczytac/
+│
+├── main.py                  # Uruchamia skrypt, kontroluje przepływ
+├── scrapper.py              # Zawiera logikę Selenium do pobierania danych
+├── table_utils.py           # Operacje na danych (np. analiza, czyszczenie, eksport do CSV)
+└── books.csv                # Plik wyjściowy z danymi (tworzony przez program)
