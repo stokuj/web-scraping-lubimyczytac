@@ -6,6 +6,28 @@ from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import TimeoutException
 import time
 
+def get_isbn_from_book_page(driver, url):
+    #print(f"Pobieranie ISBN z: {url}")
+    isbn = ''
+    try:
+        driver.get(url)
+
+        # Poczekaj na załadowanie nagłówka strony
+        WebDriverWait(driver, 5).until(
+            EC.presence_of_element_located((By.TAG_NAME, 'head'))
+        )
+
+        # Znajdź meta tag z ISBN
+        isbn_meta = driver.find_element(By.XPATH, '//meta[@property="books:isbn"]')
+        isbn = isbn_meta.get_attribute("content").strip()
+
+        #print(f"Znaleziono ISBN: {isbn}")
+    except Exception as e:
+        print(f"Błąd ISBN w {url}: {e}")
+
+    return isbn
+
+
 def scrape_books(profile_url):
     chrome_options = Options()
     # chrome_options.add_argument("--headless=new")  # Tryb bezgłowy, jeśli potrzebujesz
@@ -61,6 +83,9 @@ def scrape_books(profile_url):
             except:
                 book_link = ''
 
+            # ISBN
+            isbn = '' # Tymczasowo pusty, będzie uzupełniony później
+            
             # Cykl
             try:
                 cycle_elem = book.find_elements(By.CLASS_NAME, 'listLibrary__info--cycles')
@@ -127,7 +152,7 @@ def scrape_books(profile_url):
 
             # Dodaj dane o książce do listy
             all_books.append([
-                book_id, title, author, cycle, avg_rating, rating_count,
+                book_id, title, author, isbn, cycle, avg_rating, rating_count,
                 readers, opinions, user_rating, book_link, read_date, shelves, self_shelves
             ])
 
@@ -137,9 +162,19 @@ def scrape_books(profile_url):
             if 'disabled' in next_button.get_attribute('class'):
                 break
             next_button.click()
-            time.sleep(0.5)  # Poczekaj na załadowanie strony
+            time.sleep(0.2)  # Poczekaj na załadowanie strony
         except:
             break  # Nie ma przycisku lub już ostatnia strona
 
     driver.quit()
+    
+    # Funkcja do pobierania ISBN z linku książki
+    driver = webdriver.Chrome(options=chrome_options)
+    for book in all_books:
+        link = book[10]  # zakładamy, że 11. element to book_link
+        isbn = get_isbn_from_book_page(driver, link)
+        book[3] = isbn  # Nadpisz ISBN bez dodawania nowej kolumny
+        
+    driver.quit()
+        
     return all_books
