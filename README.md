@@ -2,6 +2,11 @@
 
 Ten projekt to prosty, ale elastyczny web scraper napisany w Pythonie, służący do zbierania danych z portalu **Lubimyczytać.pl**. Głównym celem jest automatyczne pobieranie informacji o książkach (np. tytuł, autor, ocena, półki użytkownika) z publicznego profilu użytkownika, a następnie zapisanie ich do pliku CSV w celu dalszej analizy.
 
+
+## Obsługiwane strony
+
+- **Goodreads** — Radzi sobię z większością importem większości tyułów
+
 ## 🔧 Technologie użyte w projekcie
 
 - **Python 3**

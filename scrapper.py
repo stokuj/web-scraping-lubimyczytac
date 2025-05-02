@@ -6,26 +6,65 @@ from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import TimeoutException
 import time
 
+from selenium.common.exceptions import TimeoutException
+
 def get_isbn_from_book_page(driver, url):
-    #print(f"Pobieranie ISBN z: {url}")
+    # jeśli URL jest nieprawidłowy, od razu zwracamy puste dane
+    if not url or not url.startswith("http"):
+        print(f"❌ Nieprawidłowy URL: {url}")
+        return '', 'BRAK'
+    
     isbn = ''
+    original_title = 'BRAK'
     try:
         driver.get(url)
 
-        # Poczekaj na załadowanie nagłówka strony
+        # czekamy, aż strona się załaduje
         WebDriverWait(driver, 5).until(
             EC.presence_of_element_located((By.TAG_NAME, 'head'))
         )
 
-        # Znajdź meta tag z ISBN
-        isbn_meta = driver.find_element(By.XPATH, '//meta[@property="books:isbn"]')
-        isbn = isbn_meta.get_attribute("content").strip()
+        # --- pobranie ISBN ---
+        try:
+            isbn_meta = driver.find_element(
+                By.XPATH, '//meta[@property="books:isbn"]'
+            )
+            isbn = isbn_meta.get_attribute("content").strip()
+        except:
+            isbn = ''
+        
+        # Próba pobrania całej sekcji szczegółów
+        try:
+            # Oczekiwanie na załadowanie sekcji szczegółów
+            details_section = WebDriverWait(driver, 5).until(
+                EC.presence_of_element_located((By.ID, "book-details"))
+            )
+            
+            # Pobierz całą zawartość HTML sekcji
+            section_content = details_section.get_attribute("innerHTML")
+            # print("=== ZAWARTOŚĆ SEKCJI SZCZEGÓŁÓW ===")
+            # print(section_content)
+            # print("===================================")
+            start = section_content.find("Tytuł oryginału:")
+            if start != -1:
+                start = section_content.find("<dd>", start)
+                end = section_content.find("</dd>", start)
+                original_title = section_content[start+4:end].strip()
+                #print(original_title)
 
-        #print(f"Znaleziono ISBN: {isbn}")
+
+        except TimeoutException:
+            print(f"🔍 Nie znaleziono sekcji szczegółów książki na stronie {url}")
+            original_title = "BRAK"
+            
+        except TimeoutException:
+            # nie znaleziono dt -> zostawiamy default 'BRAK'
+            print(f"🔍 Nie znaleziono sekcji 'Tytuł oryginału' na stronie {url}")
+        
     except Exception as e:
-        print(f"Błąd ISBN w {url}: {e}")
-
-    return isbn
+        print(f"Błąd pobierania danych z {url}: {e}")
+        original_title = 'test'       
+    return isbn, original_title
 
 
 def scrape_books(profile_url):
@@ -85,6 +124,9 @@ def scrape_books(profile_url):
 
             # ISBN
             isbn = '' # Tymczasowo pusty, będzie uzupełniony później
+            
+            # Oryginalny tytuł
+            original_title = '' # Tymczasowo pusty, będzie uzupełniony później
             
             # Cykl
             try:
@@ -152,8 +194,21 @@ def scrape_books(profile_url):
 
             # Dodaj dane o książce do listy
             all_books.append([
-                book_id, title, author, isbn, cycle, avg_rating, rating_count,
-                readers, opinions, user_rating, book_link, read_date, shelves, self_shelves
+                book_id,               # ID
+                title,                 # Tytuł
+                author,                # Autor
+                isbn,                  # ISBN
+                cycle,                 # Cykl
+                avg_rating,            # Średnia ocena
+                rating_count,          # Liczba ocen
+                readers,               # Czytelnicy
+                opinions,              # Opinie
+                user_rating,           # Ocena użytkownika
+                book_link,             # Link
+                read_date,             # Data przeczytania
+                shelves,               # Na półkach Główne
+                self_shelves,          # Na półkach Pozostałe
+                original_title         # Polski Tytuł (czyli na końcu!)
             ])
 
         # Przejście do następnej strony
@@ -167,14 +222,22 @@ def scrape_books(profile_url):
             break  # Nie ma przycisku lub już ostatnia strona
 
     driver.quit()
-    
-    # Funkcja do pobierania ISBN z linku książki
-    driver = webdriver.Chrome(options=chrome_options)
-    for book in all_books:
-        link = book[10]  # zakładamy, że 11. element to book_link
-        isbn = get_isbn_from_book_page(driver, link)
-        book[3] = isbn  # Nadpisz ISBN bez dodawania nowej kolumny
-        
-    driver.quit()
-        
     return all_books
+
+def fill_isbn_and_original_titles(books):
+
+    chrome_options = Options()
+    driver = webdriver.Chrome(options=chrome_options)
+
+    for book in books:
+        link = book[10]
+        isbn, original_title = get_isbn_from_book_page(driver, link)
+        book[3] = isbn
+        if original_title != 'BRAK':
+            book[14] = original_title
+        else:
+            book[14] = book[1]
+        
+
+    driver.quit()
+    return books

@@ -8,11 +8,20 @@ def save_books_to_csv(books, filename):
     with open(filename, mode='w', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
         writer.writerow([
-            'ID', 'Tytuł', 'Autor', 'ISBN', 'Cykl', 'Średnia ocena', 'Liczba ocen',
-            'Czytelnicy', 'Opinie', 'Ocena użytkownika', 'Link', 'Data przeczytania', 'Na półkach Głowne', 'Na półkach Pozostałe'
-        ])
+    'ID', 'Polski Tytuł', 'Autor', 'ISBN', 'Cykl', 'Średnia ocena', 'Liczba ocen',
+    'Czytelnicy', 'Opinie', 'Ocena użytkownika', 'Link', 'Data przeczytania',
+    'Na półkach Głowne', 'Na półkach Pozostałe', 'Tytuł'
+])
         writer.writerows(books)
 
+def load_books_from_csv(filename):
+    books = []
+    with open(filename, mode='r', encoding='utf-8') as file:
+        reader = csv.reader(file)
+        headers = next(reader, None)  # Pomijamy nagłówek
+        for row in reader:
+            books.append(row)
+    return books
 
 def convert_books_to_goodreads(input_file, output_file):
     with open(input_file, mode='r', encoding='utf-8') as infile:
@@ -22,7 +31,7 @@ def convert_books_to_goodreads(input_file, output_file):
         print("Headers in the input CSV:", reader.fieldnames)
 
         fieldnames = [
-            'Title', 'Author', 'ISBN', 'My Rating', 'Average Rating', 'Publisher', 
+            'Title', 'Polish Title', 'Author', 'ISBN', 'My Rating', 'Average Rating', 'Publisher', 
             'Binding', 'Year Published', 'Original Publication Year', 'Date Read', 
             'Date Added', 'Shelves', 'Bookshelves', 'My Review'
         ]
@@ -32,12 +41,14 @@ def convert_books_to_goodreads(input_file, output_file):
             writer.writeheader()
             
             for row in reader:
+            
                 # Check if 'Na półkach Główne' exists in row and handle it
                 shelves = row.get('Na półkach Głowne', '')
                 bookshelves = row.get('Na półkach Pozostałe', '')
                 
                 goodreads_row = {
                     'Title': row.get('Tytuł', ''),
+                    'Polish Title': row.get('Polski Tytuł', ''), 
                     'Author': row.get('Autor', ''),
                     'ISBN': row.get('ISBN', ''),
                     'My Rating': row.get('Ocena użytkownika', ''),
