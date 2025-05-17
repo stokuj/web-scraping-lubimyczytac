@@ -1,3 +1,11 @@
+"""
+Scraper module for extracting book data from Lubimyczytac.pl.
+
+This module contains functions for scraping book information from a user's profile
+on Lubimyczytac.pl. It uses Selenium WebDriver to automate browser interactions
+and extract data such as book titles, authors, ratings, and other metadata.
+"""
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -6,14 +14,24 @@ from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import TimeoutException
 import time
 
-from selenium.common.exceptions import TimeoutException
-
 def get_isbn_from_book_page(driver, url):
-    # jeśli URL jest nieprawidłowy, od razu zwracamy puste dane
+    """
+    Extract ISBN and original title from a book's page.
+
+    Args:
+        driver (WebDriver): Selenium WebDriver instance
+        url (str): URL of the book page
+
+    Returns:
+        tuple: A tuple containing (isbn, original_title)
+            - isbn (str): The ISBN of the book, or empty string if not found
+            - original_title (str): The original title of the book, or 'BRAK' if not found
+    """
+    # Return empty data if URL is invalid
     if not url or not url.startswith("http"):
         print(f"❌ Nieprawidłowy URL: {url}")
         return '', 'BRAK'
-    
+
     isbn = ''
     original_title = 'BRAK'
     try:
@@ -32,14 +50,14 @@ def get_isbn_from_book_page(driver, url):
             isbn = isbn_meta.get_attribute("content").strip()
         except:
             isbn = ''
-        
+
         # Próba pobrania całej sekcji szczegółów
         try:
             # Oczekiwanie na załadowanie sekcji szczegółów
             details_section = WebDriverWait(driver, 5).until(
                 EC.presence_of_element_located((By.ID, "book-details"))
             )
-            
+
             # Pobierz całą zawartość HTML sekcji
             section_content = details_section.get_attribute("innerHTML")
             # print("=== ZAWARTOŚĆ SEKCJI SZCZEGÓŁÓW ===")
@@ -56,11 +74,11 @@ def get_isbn_from_book_page(driver, url):
         except TimeoutException:
             print(f"🔍 Nie znaleziono sekcji szczegółów książki na stronie {url}")
             original_title = "BRAK"
-            
+
         except TimeoutException:
             # nie znaleziono dt -> zostawiamy default 'BRAK'
             print(f"🔍 Nie znaleziono sekcji 'Tytuł oryginału' na stronie {url}")
-        
+
     except Exception as e:
         print(f"Błąd pobierania danych z {url}: {e}")
         original_title = 'test'       
@@ -68,8 +86,25 @@ def get_isbn_from_book_page(driver, url):
 
 
 def scrape_books(profile_url):
+    """
+    Scrape book data from a user's profile on Lubimyczytac.pl.
+
+    This function navigates through all pages of a user's book list,
+    extracting detailed information about each book.
+
+    Args:
+        profile_url (str): URL of the user's profile page
+
+    Returns:
+        list: A list of lists, where each inner list contains data for one book
+              with the following fields:
+              [book_id, title, author, isbn, cycle, avg_rating, rating_count,
+               readers, opinions, user_rating, book_link, read_date,
+               shelves, self_shelves, original_title]
+    """
+    # Initialize Chrome WebDriver
     chrome_options = Options()
-    # chrome_options.add_argument("--headless=new")  # Tryb bezgłowy, jeśli potrzebujesz
+    # chrome_options.add_argument("--headless=new")  # Headless mode if needed
     driver = webdriver.Chrome(options=chrome_options)
     driver.get(profile_url)
 
@@ -94,7 +129,7 @@ def scrape_books(profile_url):
         except TimeoutException:
             print("Brak książek na stronie — zakończono zbieranie.")
             break
-        
+
         books = driver.find_elements(By.CLASS_NAME, 'authorAllBooks__single')
 
         for book in books:
@@ -124,10 +159,10 @@ def scrape_books(profile_url):
 
             # ISBN
             isbn = '' # Tymczasowo pusty, będzie uzupełniony później
-            
+
             # Oryginalny tytuł
             original_title = '' # Tymczasowo pusty, będzie uzupełniony później
-            
+
             # Cykl
             try:
                 cycle_elem = book.find_elements(By.CLASS_NAME, 'listLibrary__info--cycles')
@@ -178,7 +213,7 @@ def scrape_books(profile_url):
                 read_date = read_date_elem.text.replace('Przeczytał:', '').strip()
             except:
                 read_date = '' # zostają domyślne puste stringi
-            
+
             # Półki (shelves) oraz półki użytkownika (self_shelves)
             try:
                 shelf_elem = book.find_element(By.CLASS_NAME, 'authorAllBooks__singleTextShelfRight')
@@ -225,7 +260,19 @@ def scrape_books(profile_url):
     return all_books
 
 def fill_isbn_and_original_titles(books):
+    """
+    Enrich book data with ISBN and original titles.
 
+    This function visits each book's page to extract additional information
+    that is not available on the user's profile page.
+
+    Args:
+        books (list): A list of book data as returned by scrape_books()
+
+    Returns:
+        list: The same list of books, but with ISBN and original title fields populated
+    """
+    # Initialize Chrome WebDriver
     chrome_options = Options()
     driver = webdriver.Chrome(options=chrome_options)
 
@@ -237,7 +284,7 @@ def fill_isbn_and_original_titles(books):
             book[14] = original_title
         else:
             book[14] = book[1]
-        
+
 
     driver.quit()
     return books
