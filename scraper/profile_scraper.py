@@ -1,9 +1,8 @@
 """
-Scraper module for extracting book data from Lubimyczytac.pl.
+Module for scraping book data from a user's profile on Lubimyczytac.pl.
 
-This module contains functions for scraping book information from a user's profile
-on Lubimyczytac.pl. It uses Selenium WebDriver to automate browser interactions
-and extract data such as book titles, authors, ratings, and other metadata.
+This module contains functions for navigating through a user's book list
+and extracting detailed information about each book.
 """
 
 from selenium import webdriver
@@ -13,77 +12,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import TimeoutException
 import time
-
-def get_isbn_from_book_page(driver, url):
-    """
-    Extract ISBN and original title from a book's page.
-
-    Args:
-        driver (WebDriver): Selenium WebDriver instance
-        url (str): URL of the book page
-
-    Returns:
-        tuple: A tuple containing (isbn, original_title)
-            - isbn (str): The ISBN of the book, or empty string if not found
-            - original_title (str): The original title of the book, or 'BRAK' if not found
-    """
-    # Return empty data if URL is invalid
-    if not url or not url.startswith("http"):
-        print(f"❌ Nieprawidłowy URL: {url}")
-        return '', 'BRAK'
-
-    isbn = ''
-    original_title = 'BRAK'
-    try:
-        driver.get(url)
-
-        # czekamy, aż strona się załaduje
-        WebDriverWait(driver, 5).until(
-            EC.presence_of_element_located((By.TAG_NAME, 'head'))
-        )
-
-        # --- pobranie ISBN ---
-        try:
-            isbn_meta = driver.find_element(
-                By.XPATH, '//meta[@property="books:isbn"]'
-            )
-            isbn = isbn_meta.get_attribute("content").strip()
-        except:
-            isbn = ''
-
-        # Próba pobrania całej sekcji szczegółów
-        try:
-            # Oczekiwanie na załadowanie sekcji szczegółów
-            details_section = WebDriverWait(driver, 5).until(
-                EC.presence_of_element_located((By.ID, "book-details"))
-            )
-
-            # Pobierz całą zawartość HTML sekcji
-            section_content = details_section.get_attribute("innerHTML")
-            # print("=== ZAWARTOŚĆ SEKCJI SZCZEGÓŁÓW ===")
-            # print(section_content)
-            # print("===================================")
-            start = section_content.find("Tytuł oryginału:")
-            if start != -1:
-                start = section_content.find("<dd>", start)
-                end = section_content.find("</dd>", start)
-                original_title = section_content[start+4:end].strip()
-                #print(original_title)
-
-
-        except TimeoutException:
-            print(f"🔍 Nie znaleziono sekcji szczegółów książki na stronie {url}")
-            original_title = "BRAK"
-
-        except TimeoutException:
-            # nie znaleziono dt -> zostawiamy default 'BRAK'
-            print(f"🔍 Nie znaleziono sekcji 'Tytuł oryginału' na stronie {url}")
-
-    except Exception as e:
-        print(f"Błąd pobierania danych z {url}: {e}")
-        original_title = 'test'       
-    return isbn, original_title
-
 
 def scrape_books(profile_url):
     """
@@ -141,7 +69,10 @@ def scrape_books(profile_url):
 
             # Tytuł
             try:
-                title = book.find_element(By.CLASS_NAME, 'authorAllBooks__singleTextTitle').text.strip()
+                title_element = book.find_element(By.CLASS_NAME, 'authorAllBooks__singleTextTitle')
+                title = title_element.text
+                if isinstance(title, str):
+                    title = title.strip()
             except:
                 title = ''
 
@@ -252,39 +183,9 @@ def scrape_books(profile_url):
             if 'disabled' in next_button.get_attribute('class'):
                 break
             next_button.click()
-            time.sleep(0.2)  # Poczekaj na załadowanie strony
+            time.sleep(1)  # Poczekaj na załadowanie strony
         except:
             break  # Nie ma przycisku lub już ostatnia strona
 
     driver.quit()
     return all_books
-
-def fill_isbn_and_original_titles(books):
-    """
-    Enrich book data with ISBN and original titles.
-
-    This function visits each book's page to extract additional information
-    that is not available on the user's profile page.
-
-    Args:
-        books (list): A list of book data as returned by scrape_books()
-
-    Returns:
-        list: The same list of books, but with ISBN and original title fields populated
-    """
-    # Initialize Chrome WebDriver
-    chrome_options = Options()
-    driver = webdriver.Chrome(options=chrome_options)
-
-    for book in books:
-        link = book[10]
-        isbn, original_title = get_isbn_from_book_page(driver, link)
-        book[3] = isbn
-        if original_title != 'BRAK':
-            book[14] = original_title
-        else:
-            book[14] = book[1]
-
-
-    driver.quit()
-    return books

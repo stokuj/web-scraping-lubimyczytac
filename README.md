@@ -10,6 +10,7 @@ Ten projekt to prosty, ale elastyczny web scraper napisany w Pythonie, służąc
 - [Konfiguracja](#-konfiguracja)
 - [Użycie](#-użycie)
 - [Funkcjonalności](#-funkcjonalności)
+- [Testowanie](#-testowanie)
 - [Możliwe rozszerzenia](#-możliwe-rozszerzenia)
 
 ## Obsługiwane strony
@@ -46,6 +47,34 @@ Ten projekt to prosty, ale elastyczny web scraper napisany w Pythonie, służąc
   - Data przeczytania (jeśli dostępna)
 - Obsługa wyjątków i błędów (np. brak danych na stronie, timeouty)
 - Zapis danych do formatu CSV
+
+## 🧪 Testowanie
+
+Projekt zawiera testy jednostkowe, które sprawdzają poprawność działania głównych funkcji:
+
+- **test_table_utils.py** - testy dla funkcji przetwarzania i zapisu danych
+- **test_scrapper.py** - testy dla funkcji pobierania danych ze strony
+- **test_sample.py** - podstawowe testy weryfikujące działanie projektu
+
+### Uruchamianie testów
+
+Aby uruchomić wszystkie testy, użyj skryptu `run_tests.py`:
+
+```
+python run_tests.py
+```
+
+Możesz również uruchomić poszczególne testy za pomocą pytest:
+
+```
+pytest -v tests/test_table_utils.py
+pytest -v tests/test_scrapper.py
+pytest -v tests/test_sample.py
+```
+
+### Dodawanie nowych testów
+
+Aby dodać nowe testy, utwórz nowy plik w katalogu `tests/` z nazwą zaczynającą się od `test_`. Funkcje testowe powinny również zaczynać się od `test_`.
 
 ## 📥 Instalacja
 
@@ -116,6 +145,7 @@ This project is a simple yet flexible web scraper written in Python, designed to
 - [Configuration](#-configuration)
 - [Usage](#-usage)
 - [Features](#-features)
+- [Testing](#-testing-1)
 - [Possible Extensions](#-possible-extensions)
 
 ## Supported Sites
@@ -152,6 +182,34 @@ This project is a simple yet flexible web scraper written in Python, designed to
   - Date read (if available)
 - Exception and error handling (e.g., missing data on the page, timeouts)
 - Saving data to CSV format
+
+## 🧪 Testing
+
+The project includes unit tests that verify the correctness of the main functions:
+
+- **test_table_utils.py** - tests for data processing and saving functions
+- **test_scrapper.py** - tests for web scraping functions
+- **test_sample.py** - basic tests verifying project functionality
+
+### Running Tests
+
+To run all tests, use the `run_tests.py` script:
+
+```
+python run_tests.py
+```
+
+You can also run individual tests using pytest:
+
+```
+pytest -v tests/test_table_utils.py
+pytest -v tests/test_scrapper.py
+pytest -v tests/test_sample.py
+```
+
+### Adding New Tests
+
+To add new tests, create a new file in the `tests/` directory with a name starting with `test_`. Test functions should also start with `test_`.
 
 ## 📥 Installation
 
