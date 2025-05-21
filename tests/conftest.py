@@ -6,8 +6,12 @@ This file contains fixtures that can be used by all tests in the project.
 
 import pytest
 import os
+import sys
 import csv
 from unittest.mock import MagicMock
+
+# Add the project root directory to the Python path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 @pytest.fixture
 def sample_books():
@@ -30,14 +34,14 @@ def temp_csv_file(tmp_path):
 def mock_driver():
     """Fixture providing a mock Selenium WebDriver."""
     driver = MagicMock()
-    
+
     # Mock find_element for ISBN
     isbn_meta = MagicMock()
     isbn_meta.get_attribute.return_value = "9781234567890"
     driver.find_element.return_value = isbn_meta
-    
+
     # Mock WebDriverWait and until
     wait_mock = MagicMock()
     driver.find_element.return_value = isbn_meta
-    
+
     return driver
